@@ -4,13 +4,13 @@
 	font-weight: 400;
 	line-height: 26px;
 }
-/*CAMPO DE BUSCA*/
+/*CONTAINER HEADER*/
 .container-header {
     display: flex;
     background-color: #000000e0;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 0;
 }
 
 .container-header p {
@@ -46,6 +46,10 @@
     direction: none;
 }
 
+/*CAMPO DE BUSCA*/  
+input {
+    color: #FFF;
+}
 #txtBusca {
     background-color: rgba(80, 78, 75, 0.733);
     padding-left:5px; 
@@ -165,10 +169,12 @@ strong {
 
 /*MAIN SECTION*/
 .section-entra-plano {
-    background-color: rgba(3, 3, 3, 0.952);
+    background-color: rgb(3, 3, 3);
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
+    height: 40vh;
+    padding: 30px 50px 70px 50px;
 }
 
 .section-entra-plano-3 {
@@ -184,13 +190,14 @@ strong {
 }
 
 .section-entra-plano p {
-    color: rgb(255, 255, 255);
+    color: rgb(99, 93, 93);
     font-weight: 900;
 }
 
 .section-entra-plano h2 {
     font-weight: 900;
-    color: rgb(214, 109, 11)
+    color: rgb(214, 109, 11);
+    line-height: 2.0em;
 }
 
 .section-entra-plano-3 h2 {
@@ -276,6 +283,7 @@ strong {
     background-color: #070607;
     text-align: center;
     height: 37vh;
+    width: 100vw;
 }
 
 .container-section-4 p {
@@ -322,6 +330,10 @@ strong {
     text-align: justify;
 }
 /*horas*/
+.container-horas {
+    margin-bottom: 50px;
+}
+
 .container-horas strong {
     color: #070607;
     font-size: 15px;
@@ -366,7 +378,8 @@ strong {
 .container-metodogia {
     display: flex;
     width: 100vw;
-    margin-top: 50px;
+    margin-top: 40px;
+    padding: 70px;
 }
 
 article {
@@ -396,36 +409,46 @@ aside h5 {
     color: #FFF;
     padding-top: 7px;
 }
-.formulario {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    padding: 10px;
-}
 
-.formulario input {
-    margin: 7px;
-}
-
-.formulario button {
-    width: 20vw;
-    margin-left: 190px;
-    color: #f51313;
-}
 /*fim aside*/
 
-/*footer*/
-.container-footer {
-    background-color: #443a3a98;
-    padding-top: 10px;
+/*formulario php*/
+
+.container-formulario, form {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
 }
 
-.footer-rd-scl img {
-    border: 2px solid #FFF;
-    background-color: #FFF;
-    border-radius: 10px 10px;
+.container-formulario h5, label {
+    font-weight: 900;
+    color: rgb(100, 97, 96);
 }
+
+form {
+    width: 40vw;
+}
+
+input[type=submit] {
+    color: rgba(211, 0, 253, 0.589);
+    background-color: rgba(0, 0, 0, 0.938);
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 220px;
+    font-weight: 900;
+}
+
+input {
+    padding: 5px;
+    border: 0.1px solid rgba(211, 0, 253, 0.589);
+    border-radius: 5px;
+
+}
+/*fim formulario*/
+
 /*footer*/
+
+/*fim-footer*/
 
     
 

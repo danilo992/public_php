@@ -4,8 +4,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Fitnees Point Academia</title>
 </head>
 <body>
@@ -39,50 +39,22 @@
     <main>
         <!--CAROUSEL-->
         <div class="bd-example">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="img/logo4.jpeg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Plano Resultado Garantido</h5>
-                        <p><strong>&#x02713;</strong> Inclui Avaliação Física</p> 
-                        <p><strong>&#x02713;</strong> Treino Personalizado</p>
-                        <p><strong>&#x02713;</strong> Horário Livre</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/09.jpeg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Plano Resultado Garantido</h5>
-                        <p><strong>&#x02713;</strong> Inclui Avaliação Física</p>
-                        <p><strong>&#x02713;</strong> Treino Personalizado</p>
-                        <p><strong>&#x02713;</strong> Horário Livre</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/maquina.jpeg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Plano Musculação 3x/Semana</h5>
-                        <p><strong>&#x02713;</strong> Horário Livre</p>
-                        <p><strong>&#x02713;</strong> 12 Acessos/mês</p>
-                        <p><strong>&#x02713;</strong> Horário Livre</p> 
-                    </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/09.jpeg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Fitness Point</h5>
+                    <p></p>
+                    <p>a pharetra augue mollis interdum.</p>
                   </div>
-                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
                 </div>
               </div>
+            </div>
+          </div>
               <!--FIM CAROUSEL-->
               <!--SECTION-ENTRA-PLANO 1 -->
               <section class="section-entra-plano" id="#planos">
@@ -100,8 +72,8 @@
               <section class="container-planos" id="#planos">
                 <div class="container-plano-mlc">
                   <h4>Plano</h4>
-                  <h4>Musculação</h4>
-                  <p>3x/semana</p>
+                  <h4>3x/semana</h4>
+                  <p>Musculação</p>
                   <div class="list-plano-mlc">
                       <ul>
                         <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -116,8 +88,8 @@
                 </div>
                 <div class="container-plano-mlc">
                     <h4>Plano</h4>
-                    <h4>Musculação</h4>
-                    <p>Horário Econômico</p>
+                    <h4>Horário Econômico</h4>
+                    <p>Musculação</p>
                     <div class="list-plano-mlc">
                       <ul>
                         <li><strong>&#x02713;</strong>Das 11:30 - 14:00</li>
@@ -132,8 +104,8 @@
                   </div>
                   <div class="container-plano-mlc">
                       <h4>Plano</h4>
-                      <h4>Musculação</h4>
-                      <p>Mensal</p>
+                      <h4>Mensal</h4>
+                      <p>Musculação</p>
                       <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -345,27 +317,33 @@
                           </ul>
                       </article>
                 </section> 
-                <!--fim metodolia-->  
+                <!--fim metodolia--> 
+                <!--formulario index-php-->
+                <section class="container-formulario">
+                  <h5>Cadastre suas informações para receber informações de promoções</h5>
+                  <form method="POST" action="#">
+                      <label>Nome Completo:</label>
+                          <input type="text" name="full_name" id="full_name" placeholder="nome" maxlength="80" required>
+                      <label>E-mail:</label>
+                          <input type="email" name="email" id="email" placeholder="email" required>
+                      <label>Contato</label>
+                      <input type="text" name="numero" id="numero" placeholder="contato" required>  
+                     <input type="submit" value="envia">
+                  </form>
+              </section>
+                <!--fim formulario-->
     </main>
     <!--FIM MAIN-->
-    <aside>
-      <h5>
-        Envie seu contato para mais informações
-      </h5>
-      <form method="POST" action="#php" class="formulario"> 
-        <input type="text" name="nome" placeholder="Nome Completo">
-        <input type="email" name="email" placeholder="E-mail">
-        <input type="text" name="numero" placeholder="Numero com DDD">
-        <button type="submit">Enviar</button>
-      </form>
-    </aside>
     <!--footer-->
-    <footer class="container-footer">
-      <div class="footer-rd-scl">
+    <footer>
+      <aside>
         <img src="img/facebook_2.png">
         <img src="img/instagram.png">
+        <img src="img/home.png">
         <img src="img/pin_2.png">
-      </div>
+        <img src="img/globe.png">
+      </aside>
+
     </footer>
     <!--fim-footer-->
     <script type="text/javascript" src="js/script.js"></script>
