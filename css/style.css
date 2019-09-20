@@ -1,0 +1,446 @@
+* {
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 26px;
+}
+/*CAMPO DE BUSCA*/
+.container-header {
+    display: flex;
+    background-color: #000000e0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.container-header p {
+    color: #FFF;
+    margin: 3px 0 0 8px;
+}
+
+.container-header p:hover {
+    color: #817878e0;
+    margin: 3px 0 0 8px;
+}
+
+.container-header a {
+    display: flex;
+    margin-top: 3px;
+    text-decoration: none !important;
+    direction: none;
+    list-style-type: none;
+    color: rgba(179, 166, 166, 0.376);
+}
+
+.container-header a:hover {
+    color: rgba(167, 25, 233, 0.644);
+}
+
+.container-header i {
+    margin-top: 3px;
+    color: #b8adadd8;
+}
+
+.container-header i:hover {
+    color: #e47114d5;
+    direction: none;
+}
+
+#txtBusca {
+    background-color: rgba(80, 78, 75, 0.733);
+    padding-left:5px; 
+    font-size:18px;
+    border: 0.3px solid #e97324ad;
+    height:34px;
+    width:316px;
+    margin: 1% 0 0 0;
+}
+
+#divBusca {
+    margin: 0 0 0 4%;
+}
+
+  /*FIM*/
+
+/*HEADER*/
+header {
+	height: 127px;
+	width: 100%;
+	background-color: #070607;
+	display: flex;
+	font-size: 1em;
+    border-bottom: 0.5px solid rgb(255, 104, 4);
+}
+
+header h1 {
+	text-transform: uppercase;
+    text-align: center;
+    display: flex;
+}
+
+header img {
+    width: 12%;
+    height: 10%;
+    margin: 42px 0 0 0;
+    border-top-right-radius: 9%;
+    border-bottom-right-radius: 9%;
+    border: 1px solid rgb(255, 104, 4);
+}
+
+.container-nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    width: 60%;   
+    margin: -5% 0 0 30%; 
+}
+
+.container-nav li {
+    border-left: 0.3px solid rgb(31, 30, 30);
+    border-right: 0.3px solid rgb(27, 26, 26);
+    padding: 0 0.5% 0 0.5%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: -2% 0 0 0;
+    
+}
+
+.container-nav li:hover {
+    border-left: 0.3px solid rgb(29, 28, 27);
+    padding: 0 1% 0 1%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: -2% 0 0 0;
+    background-color: rgba(39, 36, 36, 0.568);
+    text-decoration: none;
+    border-bottom: 0.5px solid rgba(35, 33, 36, 0.548);
+    border-top: 0.5px solid rgba(35, 33, 36, 0.548);
+}
+
+.container-nav a {
+    color: rgb(240, 231, 226);
+    font-weight: 900;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    margin: 12% 0 0 0;
+    flex-flow: row wrap;
+    text-decoration: none;
+    direction: none;
+}
+
+.container-nav a:hover {
+    text-decoration: none;
+    color: rgba(216, 74, 216, 0.678);
+    direction: none;
+}
+/*FIM*/
+
+/*MANI*/
+.carousel-item img {
+    width: 100vw;
+    height: 90vh;
+}
+.carousel-caption h5 {
+    font-weight: 900;
+    font-size: 450%;
+    margin: 20px 0 70px 0;
+    color: rgba(226, 89, 21, 0.89);
+    text-shadow: 4px 4px #1a1919b0;
+}
+
+.carousel-caption  p {
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 20vw;
+    text-align: center;
+    justify-content: center;
+}
+
+strong {
+    color: #0ec518ad;
+    font-size: 150%;
+}
+
+/*MAIN SECTION*/
+.section-entra-plano {
+    background-color: rgba(3, 3, 3, 0.952);
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.section-entra-plano-3 {
+    background-color: rgba(3, 3, 3, 0.952);
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.section-entra-plano h3 {
+    color: #fdfaffe8;
+    font-weight: 900;
+}
+
+.section-entra-plano p {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.section-entra-plano h2 {
+    font-weight: 900;
+    color: rgb(214, 109, 11)
+}
+
+.section-entra-plano-3 h2 {
+    font-weight: 900;
+    color: rgb(214, 109, 11)
+}
+
+/*CONTAINER-PLANO*/
+.container-planos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-planos-1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-plano-mlc {
+    border: 0.1px solid #00000054;
+    width: 25vw;
+    height: 47vh;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.container-plano-mlc-1 {
+    border: 0.1px solid #00000054;
+    width: 25vw;
+    height: 55vh;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+
+.container-plano-mlc h4 {
+    color: rgb(214, 109, 11);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container-plano-mlc-1 h4 {
+    color: rgb(214, 109, 11);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container-plano-mlc p {
+    border-bottom: 0.4px solid #00000077;
+    border-top: 0.4px solid #00000077;
+}
+
+.container-plano-mlc-1 p {
+    border-bottom: 0.4px solid #00000077;
+    border-top: 0.4px solid #00000077;
+}
+
+.list-plano-mlc ul {
+    list-style-type: none;
+    margin: 0 0 0 -50px;
+}
+
+/*BUTTON*/
+.btn-plano-mcl {
+    margin-top: 10px;
+}
+
+.btn-plano-mcl-1 {
+    margin-top: 20px;
+}
+
+/*SECTION-4 gympass*/
+.container-section-4 {
+    background-color: #070607;
+    text-align: center;
+    height: 37vh;
+}
+
+.container-section-4 p {
+    color: hsl(120, 75%, 48%);
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.container-section-4 h3 {
+    color: hsl(0, 83%, 60%);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 19px;
+}
+
+.container-section-4 strong {
+    color: hsl(0, 83%, 60%);
+}
+/*FIM SECTION 4*/
+
+/*SECTION HORAS*/
+.container-hr-gn {
+    display: flex;
+    width: 90vw;
+}
+
+.container-ginastica {
+    width: 40vw;   
+}
+
+.container-ginastica h4 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-left: 28px;
+}
+
+.container-ginastica P {
+    width: 20vw;
+    text-align: start;
+    margin-left: 30px;
+    justify-content: baseline;
+    text-align: justify;
+}
+/*horas*/
+.container-horas strong {
+    color: #070607;
+    font-size: 15px;
+}
+
+.container-horas p {
+    border-bottom: 0.4px solid #0000006c;
+}
+
+.container-horas h3 {
+    margin-bottom: 30px;
+}
+
+.material-icone i {
+    font-size: 18px;
+    color: hsl(0, 83%, 60%);
+}
+
+.horas {
+    text-align: start;
+    margin-left: 30px;
+}
+
+#fechado strong {
+    color: hsl(0, 83%, 60%);
+}
+
+.fechado  {
+    margin-left: 66px;
+}
+
+#verde i {
+    color: #53f00b;
+}
+
+.paragrafo {
+    color: #f13319;
+}
+/*FIM SECTION HORS*/
+
+/*container metodologia*/
+.container-metodogia {
+    display: flex;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+article {
+    width: 22vw;
+}
+
+article ul {
+    list-style-type: none;
+    margin-left: -32px;
+}
+
+article h3 {
+    color: #df0433;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/*fim metodologi*/
+
+/*aside*/
+aside {
+    background-color: #070607;
+    height: 40vh;
+}
+
+aside h5 {
+    text-align: center;
+    color: #FFF;
+    padding-top: 7px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 10px;
+}
+
+.formulario input {
+    margin: 7px;
+}
+
+.formulario button {
+    width: 20vw;
+    margin-left: 190px;
+    color: #f51313;
+}
+/*fim aside*/
+
+/*footer*/
+.container-footer {
+    background-color: #443a3a98;
+    padding-top: 10px;
+}
+
+.footer-rd-scl img {
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    border-radius: 10px 10px;
+}
+/*footer*/
+
+    
+
+
+
+
+
+/*
+@media screen and (max-width: 360px) and (min-width:640px) {
+}
+@media screen and (max-width: 411px) and (min-width:731px) {
+}
+@media screen and (min-width: 731px) and (max-width: 823px) {
+}
+@media screen and (min-width: 823px) and (max-width: 1125px) {
+}*/
+
+
