@@ -398,26 +398,16 @@ article h3 {
 }
 /*fim metodologi*/
 
-/*aside*/
-aside {
-    background-color: #070607;
-    height: 40vh;
-}
-
-aside h5 {
-    text-align: center;
-    color: #FFF;
-    padding-top: 7px;
-}
-
-/*fim aside*/
-
 /*formulario php*/
+.container-formulario {
+    padding: 29px;
+}
 
 .container-formulario, form {
     display: flex;
     flex-direction: column;
     background-color: #000;
+    padding-bottom: 10px;
 }
 
 .container-formulario h5, label {
@@ -431,7 +421,7 @@ form {
 
 input[type=submit] {
     color: rgba(211, 0, 253, 0.589);
-    background-color: rgba(0, 0, 0, 0.938);
+    background-color: #000;
     width: 120px;
     margin-top: 10px;
     margin-left: 220px;
@@ -442,11 +432,76 @@ input {
     padding: 5px;
     border: 0.1px solid rgba(211, 0, 253, 0.589);
     border-radius: 5px;
-
+    color: #000;
 }
 /*fim formulario*/
 
 /*footer*/
+footer {
+    display: flex !important;
+    background-color: #000;
+    height: 88vh;
+    width: 100vw;
+    padding-top: 50px;
+    border-top: 1px solid rgba(209, 191, 191, 0.171);
+}
+
+footer img {
+    background-color: rgb(238, 214, 214);
+    width: 43px;
+    border: 1px solid rgb(226, 222, 222);
+}
+
+aside {
+    width: 10vw;
+}
+
+.footer-aside {
+    width: 50vw;
+}
+
+.footer-aside a {
+    display: flex;
+    justify-content: center;
+    color: #0ec518ad;
+    margin: 0 0 0 -25px;
+    text-decoration: none;
+}
+
+.footer-aside a:hover {
+    display: flex;
+    justify-content: center;
+    color: #c2c50ea2;
+    margin: 0 0 0 -25px;
+    text-decoration: none;
+}
+
+.footer-aside img {
+    border-radius: 10px;
+}
+
+.pagseguro {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    width: 48vw;
+}
+
+.pagseguro p {
+    width: 21vw;
+}
+
+.pagseguro img {
+    width: 200px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.endereco {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
 
 /*fim-footer*/
 
