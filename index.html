@@ -14,22 +14,26 @@
       <a href="#1"><i class="material-icons">face</i><P>Redes Social</P></a>
       <a href="#1"><i class="material-icons">call</i><P>Ligar</P></a>
       <a href="#2"><i class="material-icons">room</i><p>Localização</p></a>
-        <div id="divBusca">
+      <!--  <div id="divBusca">
           <input type="text" id="txtBusca" placeholder="Bem Vindo ao Fitness Point ;)"/>
           <img src="img/search4.png" alt="Busca..." id="btnBusca"/>
-        </div>
+        </div> -->
   </div>
   <!--HEADER-->
     <header>
         <h1>
           <img src="img/logo3.jpeg"  alt="fitness point academia" title="Fitness Point Academia">
-        </h1>    
-      <nav class="container-nav">
+        </h1> 
+        <div class="hamIcon" onclick="toggleClass()">
+          <h2>&#9776;</h2>
+        </div>  
+  
+      <nav class="container-nav" id="mainMenu">
         <ul>
             <li><a href="#1">Comprar</a></li>
             <li><a href="#1">Planos</a></li>
             <li><a href="#1">Modalidade</a></li>
-            <li class="visivel-list"><a href="#1">Horários</a></li>
+            <li class="visivel-list"><a href="#1">Horários</a></li> 
             <li><a href="#metodologia">Metodologia de Trabalho</a></li>
         </ul>
       </nav>
@@ -38,23 +42,13 @@
     <!--MAIN-->
     <main>
         <!--CAROUSEL-->
-        <div class="bd-example">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/logo4.jpeg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Fitness Point</h5>
-                    <p></p>
-                    <p>Confira nossos planos</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+             <section class="imagen-section">
+              <figure>
+                <img src="img/09.jpeg">
+              </figure>
+             </section>
+          
+          
               <!--FIM CAROUSEL-->
               <!--SECTION-ENTRA-PLANO 1 -->
               <section class="section-entra-plano" id="#planos">
@@ -69,6 +63,7 @@
                   Fitness Point Academia
                 </h2>
               </section>
+              <!--outra section-->
               <section class="container-planos" id="#planos">
                 <div class="container-plano-mlc">
                   <h4>Plano</h4>
@@ -328,7 +323,7 @@
                           <input type="email" name="email" id="email" placeholder="E-mail" required>
                       <label>Contato</label>
                       <input type="text" name="numero" id="numero" placeholder="(DD) 9 9999-9999">  
-                     <input type="submit" value="envia">
+                     <input type="submit" value="envia" id="submit">
                   </form>
               </section>
                 <!--fim formulario-->
@@ -338,21 +333,21 @@
     <footer>
       <!--aside 1-->
       <aside class="list-redes-social">
-        <figure><img src="img/facebook_2.png">
+       <a href="#"> <figure><img src="img/facebook_2.png">
           <figcaption>Facebook</figcaption>
-        </figure>
-        <figure><img src="img/instagram.png">
+        </figure></a>
+       <a href="#"> <figure><img src="img/instagram.png">
           <figcaption>Instagram</figcaption>
-        </figure>
-        <figure><img src="img/home.png">
+        </figure></a>
+       <a href="#"> <figure><img src="img/home.png">
           <figcaption>Menu pricinpal</figcaption>
-        </figure>
-        <figure><img src="img/pin_2.png">
+        </figure></a>
+       <a href="#"> <figure><img src="img/pin_2.png">
           <figcaption>Localização</figcaption>
-        </figure>
-        <figure><img src="img/globe.png">
+        </figure></a>
+       <a href="#"> <figure><img src="img/globe.png">
           <figcaption>Goolge</figcaption>
-        </figure> 
+        </figure> </a>
       </aside>
 
       <!--aside 2-->
@@ -366,9 +361,12 @@
       <p>Siga-nos nas redes sociais</p>
       <strong>Informativo</strong>
       <p><strong>&#8902;</strong>Cadastre e receba novidades e promoções todos os dia em seu email. </p>
+      
+    <div class="footer-hrs">
       <p id="fechado"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> domindo <strong class="fechado"> Fechado </strong> </p> 
       <p id="verde"> <span class="material-icone">  <i class="material-icons">schedule</i> </span> segunda à sexta <span> 07:00 - 14:00 / 17:00 - 22:00 </span> </p> 
       <p id="verde"> <span class="material-icone">  <i class="material-icons">schedule</i> </span> sábado <span class="horas"> 09:00 - 12:00 </span> </p>
+    </div>
     </aside>
       
 

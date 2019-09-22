@@ -45,31 +45,10 @@
     color: #e47114d5;
     direction: none;
 }
-
-/*CAMPO DE BUSCA*/  
-input {
-    color: #FFF;
-}
-#txtBusca {
-    background-color: rgba(80, 78, 75, 0.733);
-    padding-left:5px; 
-    font-size:18px;
-    border: 0.3px solid #e97324ad;
-    height:34px;
-    width:316px;
-    margin: 1% 0 0 0;
-}
-
-#divBusca {
-    margin: 0 0 0 4%;
-}
-
-  /*FIM*/
-
 /*HEADER*/
 header {
 	height: 127px;
-	width: 100%;
+	width: 100vw;
 	background-color: #070607;
 	display: flex;
 	font-size: 1em;
@@ -143,23 +122,13 @@ header img {
 /*FIM*/
 
 /*MANI*/
-.carousel-item img {
+.imagen-section img {
     width: 100vw;
-    height: 90vh;
-}
-.carousel-caption h5 {
-    font-weight: 900;
-    font-size: 450%;
-    margin: 20px 0 70px 0;
-    color: rgb(253, 89, 7);
-    text-shadow: 4px 4px #1a1919b0;
+    height: 70vh;
 }
 
-.carousel-caption  p {
-    background-color: rgba(0, 0, 0, 0.753);
-    width: 20vw;
-    text-align: center;
-    justify-content: center;
+.imagen-section {
+    margin: 0 0 -16px 0;
 }
 
 strong {
@@ -175,22 +144,17 @@ strong {
     text-transform: uppercase;
     height: 40vh;
     padding: 30px 50px 70px 50px;
-}
-
-.section-entra-plano-3 {
-    background-color: rgba(3, 3, 3, 0.952);
-    text-align: center;
-    justify-content: center;
-    text-transform: uppercase;
-}
-
-.section-entra-plano h3 {
-    color: #fdfaffe8;
-    font-weight: 900;
+    width: 100vw;
 }
 
 .section-entra-plano p {
     color: rgb(99, 93, 93);
+    font-weight: 900;
+}
+
+
+.section-entra-plano h3 {
+    color: #fdfaffe8;
     font-weight: 900;
 }
 
@@ -200,9 +164,17 @@ strong {
     line-height: 2.0em;
 }
 
+.section-entra-plano-3 {
+    background-color: rgba(3, 3, 3, 0.952);
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100vw;
+}
+
 .section-entra-plano-3 h2 {
     font-weight: 900;
-    color: rgb(214, 109, 11)
+    color: rgb(214, 109, 11);
 }
 
 /*CONTAINER-PLANO*/
@@ -401,6 +373,7 @@ article h3 {
 /*formulario php*/
 .container-formulario {
     padding: 29px;
+    width: 100vw;
 }
 
 .container-formulario, form {
@@ -505,20 +478,286 @@ aside {
 
 /*fim-footer*/
 
+@media screen and (min-width: 320px) and (max-width:558px){
+    #mainMenu {
+        display: none;
+    }
+
+    #mainMenu.toggleCls {
+        display: block;
+    }
+
+    .container-header p{
+        font-size: 5px;
+    }
+
+    header {
+        height: 18vh;
+    }
+
+    .hamIcon h2 {
+        display: flex;
+        justify-content: flex-end;
+        color: rgb(240, 113, 9);
+        margin-top: -50px;
+        padding: 0 10px 0 0;
+    }
+
+    header h1 img {
+        width: 50vw;
+        height: 10vh;
+        border: none;
+        border-radius: 40px;
+    }
+
+    .container-nav li {
+        border: none;
+        padding: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        font-size: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .container-nav ul {
+        background-color: rgba(10, 10, 10, 0.808);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin-top: 0px;
+        margin-left: 157px;
+    }
+
+    .imagen-section img {
+        width: 100vw;
+        height: 47vh;
+    }
+
+    /*main section*/
+    .section-entra-plano h3 {
+        font-size: 15px;
+        color: rgb(214, 109, 11);
+    }
+
+    .section-entra-plano h2 {
+        display: none;
+    }
+
+    .section-entra-plano p {
+        font-size: 10px;
+        line-height: 1.5em;
+    }
+
+    /*container-plano*/
+    .container-planos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 33px;
+    }
+
+    .container-plano-mlc {
+        width: 70vw;
+        padding: 0;
+        margin: 10px;
+    }
+
+    /*SECTION 2 OUTROS PLANOS*/
+    .section-entra-plano {
+        height: 30vh;
+    }
+
+    .container-plano-mlc-1 {
+        width: 70vw;
+        padding: 0;
+        margin: 10px;
+    }
+
+    /*SECTION HORA*/
+    .container-hr-gn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-ginastica {
+        width: 80vw;
+        margin-left: -5px;
+    }
+
+    .container-ginastica h4{
+        margin-top: 17px;
+        border-bottom: 1px solid #f13319;
+    }
+
+    .container-ginastica p {
+        width: 70vw;
+    }
+
+    .container-horas {
+        width: 80vw;
+
+    }
+
+    .container-horas strong {
+        font-size: 10px;
+    }
+
+    /*container metodologia*/
+    .container-metodogia {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .container-metodogia article {
+        width: 90vw;
+        text-align: center;
+        padding: 15px;
+    }
+
+    /*formulario index-php*/
+    .container-formulario {
+        width: 100vw;
+        padding: 0 70px 0 0;
+    }
+
+    .container-formulario h5 {
+        font-size: 13px;
+        padding: 10px 50px 0 60px;
+        width: 100vw;
+
+    }
+
+    .container-formulario input {
+        width: 70vw;
+        padding: 1px;
+
+    }
+
+    .container-formulario label {
+        font-size: 10px;
+    }
+
+    input[type=submit] {
+        position: relative;
+        text-align: center;
+        margin: 9px 0 0 0;
+
+    }
+
+    /*footer*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        height: 190vh;
+    }
+
+    .list-redes-social {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100vw;
+    }
+
+    .list-redes-social a {
+        padding: 8px;
+        margin: 2px;
+    }
+
+    .list-redes-social img {
+        padding: 3px;
+        border-radius: 50px;
+        margin: 0;
+    }
+
+    .list-redes-social figcaption {
+        display: none;
+    }
+
+    .endereco {
+        width: 100vw;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .footer-hrs {
+        border-bottom: 1px solid #f0e9e83b;
+        border-top: 1px solid #f0e9e83b;
+        padding: 10px;
+    }
+
+    .footer-aside {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .footer-aside h5 {
+        font-size: 10px;
+    }
+
+    .pagseguro {
+        display: flex;
+        flex-direction: column;
+        margin-left: 39px;
+    }
     
+    .pagseguro aside {
+        margin: 0;
+        padding: 0;
+    }
 
+    .pagseguro p {
+        display: none;
+    }
 
+} 
 
+@media screen and (min-width: 200px) and (max-width:360x) {
+    #mainMenu  {
+        display: none;
+    }
 
+    #mainMenu.toggleCls {
+        display: block;
+    }
 
-/*
-@media screen and (max-width: 360px) and (min-width:640px) {
 }
-@media screen and (max-width: 411px) and (min-width:731px) {
+
+@media screen and (min-width: 270px) and (max-width:411x) {
+    #mainMenu {
+        display: none;
+    }
+
+    #mainMenu.toggleCls {
+        display: block;
+    }
+
+}
+@media screen and (min-width: 270px) and (max-width:731px) {
+    #mainMenu {
+        display: none;
+    }
+
+    #mainMenu.toggleCls {
+        display: block;
+    }
+
 }
 @media screen and (min-width: 731px) and (max-width: 823px) {
+   
+
 }
-@media screen and (min-width: 823px) and (max-width: 1125px) {
-}*/
+/*
+
+@media screen and (min-width: 823px) and (max-width: 1168px) {
+    .container-nav {
+        
+    }
+
+}
+*/
 
 
