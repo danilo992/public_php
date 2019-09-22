@@ -717,7 +717,7 @@ aside {
         width: 100vw;
         display: flex;
         flex-direction: column;
-        padding: 15px;
+        padding: 30px;
         margin: 15px;
     }
 
@@ -728,7 +728,7 @@ aside {
     .pagseguro {
         display: flex;
         flex-direction: column;
-        margin: 35px 0 0 -5px;
+        margin: 35px 0 0 -15px;
     }
     
     .pagseguro aside {
