@@ -541,8 +541,9 @@ aside {
         display: flex;
         flex-direction: column;
         width: 50vw;
+        height: 47.5vh;
         margin-top: 0px;
-        margin-left: 157px;
+        margin-left: 190px;
     }
 
     .imagen-section img {
@@ -710,6 +711,7 @@ aside {
     .footer-hrs {
         border-top: 1px solid #f0e9e83b;
         padding: 10px;
+        background-color: #000;
     }
 
     .footer-aside {
@@ -718,6 +720,7 @@ aside {
         flex-direction: column;
         padding: 30px;
         margin: 15px;
+        background-color: #000;
     }
 
     .footer-aside h5 {
@@ -728,6 +731,7 @@ aside {
         display: flex;
         flex-direction: column;
         margin: 35px 0 0 -15px;
+        background-color: #000;
     }
     
     .pagseguro aside {
