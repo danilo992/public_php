@@ -1,5 +1,6 @@
 * {
-	margin: 0 auto;
+    margin: 0 auto;
+    padding: 0; 
 	font-family: sans-serif;
 	font-weight: 400;
 	line-height: 26px;
@@ -19,7 +20,7 @@
 }
 
 .container-header p:hover {
-    color: #817878e0;
+    color: #615e5e;
     margin: 3px 0 0 8px;
 }
 
@@ -29,7 +30,7 @@
     text-decoration: none !important;
     direction: none;
     list-style-type: none;
-    color: rgba(179, 166, 166, 0.376);
+    color: rgb(255, 255, 255);
 }
 
 .container-header a:hover {
@@ -47,7 +48,7 @@
 }
 /*HEADER*/
 header {
-	height: 127px;
+    height: 22vh;
 	width: 100vw;
 	background-color: #070607;
 	display: flex;
@@ -62,11 +63,11 @@ header h1 {
 }
 
 header img {
-    width: 12%;
-    height: 10%;
+    width: 12vw;
+    height: 14vh;
     margin: 42px 0 0 0;
-    border-top-right-radius: 9%;
-    border-bottom-right-radius: 9%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     border: 1px solid rgb(255, 104, 4);
 }
 
@@ -74,7 +75,7 @@ header img {
     display: flex;
     list-style-type: none;
     text-decoration: none;
-    width: 60%;   
+    width: 60vw;   
     margin: -5% 0 0 30%; 
 }
 
@@ -419,6 +420,10 @@ footer {
     border-top: 1px solid rgba(209, 191, 191, 0.171);
 }
 
+footer p {
+    color: rgb(180, 169, 169);
+}
+
 footer img {
     background-color: rgb(238, 214, 214);
     width: 43px;
@@ -474,17 +479,28 @@ aside {
     width: 30vw;
     display: flex;
     flex-direction: column;
+    color: rgb(180, 169, 169);
 }
 
 /*fim-footer*/
 
 @media screen and (min-width: 320px) and (max-width:558px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
     #mainMenu {
         display: none;
     }
 
     #mainMenu.toggleCls {
         display: block;
+    }
+
+    .container-header {
+        border-bottom: 1px solid rgba(240, 113, 9, 0.137);
     }
 
     .container-header p{
@@ -506,7 +522,7 @@ aside {
     header h1 img {
         width: 50vw;
         height: 10vh;
-        border: none;
+        border: 1px solid rgba(240, 113, 9, 0.137);
         border-radius: 40px;
     }
 
@@ -541,7 +557,7 @@ aside {
     }
 
     .section-entra-plano h2 {
-        display: none;
+        font-size: 10px;
     }
 
     .section-entra-plano p {
@@ -553,7 +569,7 @@ aside {
     .container-planos {
         display: flex;
         flex-direction: column;
-        margin-left: 33px;
+        margin-left: 48px;
     }
 
     .container-plano-mlc {
@@ -618,12 +634,12 @@ aside {
     /*formulario index-php*/
     .container-formulario {
         width: 100vw;
-        padding: 0 70px 0 0;
+        padding: 0 100px 0 0;
     }
 
     .container-formulario h5 {
         font-size: 13px;
-        padding: 10px 50px 0 60px;
+        padding: 10px 50px 0 70px;
         width: 100vw;
 
     }
@@ -650,13 +666,15 @@ aside {
         display: flex;
         flex-direction: column;
         background-color: #000;
-        height: 190vh;
+        height: 150vh;
+        width: 100vw;
     }
 
     .list-redes-social {
         display: flex;
         flex-wrap: wrap; 
         width: 100vw;
+        margin-left: 22px;
     }
 
     .list-redes-social a {
@@ -674,10 +692,20 @@ aside {
         display: none;
     }
 
+    /*endereço*/
     .endereco {
         width: 100vw;
         padding: 2px;
         margin: 2px;
+    }
+
+    .endereco p {
+        padding:0 20px 0 20px;
+    }
+
+    .footer-aside img {
+        margin-top: -10px;
+        margin-left: 50px;
     }
 
     .footer-hrs {
@@ -701,7 +729,7 @@ aside {
     .pagseguro {
         display: flex;
         flex-direction: column;
-        margin-left: 39px;
+        margin: 35px 0 0 -5px;
     }
     
     .pagseguro aside {
@@ -711,6 +739,12 @@ aside {
 
     .pagseguro p {
         display: none;
+    }
+
+    .pagseguro img {
+        width: 60vw;
+        height: 27vh;
+        margin-top: -35px;
     }
 
 } 
