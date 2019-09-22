@@ -666,7 +666,7 @@ aside {
         display: flex;
         flex-direction: column;
         background-color: #000;
-        height: 150vh;
+        height: 160vh;
         width: 100vw;
     }
 
@@ -704,7 +704,6 @@ aside {
     }
 
     .footer-aside img {
-        margin-top: -10px;
         margin-left: 50px;
     }
 
@@ -744,7 +743,7 @@ aside {
     .pagseguro img {
         width: 60vw;
         height: 27vh;
-        margin-top: -35px;
+       
     }
 
 } 
