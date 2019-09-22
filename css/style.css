@@ -541,14 +541,14 @@ aside {
         display: flex;
         flex-direction: column;
         width: 50vw;
-        height: 43vh;
+        height: 50vh;
         margin-top: 0px;
         margin-left: 160px;
     }
 
     .imagen-section img {
         width: 100vw;
-        height: 50vh;
+        height: 55vh;
     }
 
     /*main section*/
