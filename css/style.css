@@ -53,7 +53,7 @@ header {
 	background-color: #070607;
 	display: flex;
 	font-size: 1em;
-    border-bottom: 0.5px solid rgb(255, 104, 4);
+   
 }
 
 header h1 {
@@ -66,8 +66,7 @@ header img {
     width: 12vw;
     height: 14vh;
     margin: 42px 0 0 0;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     border: 1px solid rgb(255, 104, 4);
 }
 
@@ -121,15 +120,62 @@ header img {
     direction: none;
 }
 /*FIM*/
-
-/*MANI*/
-.imagen-section img {
+/**/
+#galeria {
+    margin: 0px auto;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
+
+.foto {
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 19s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+    25% {
+        
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1){
+    animation-delay: 1s;
+}
+.foto:nth-child(2){
+    animation-delay: 5s;
+}
+.foto:nth-child(3){
+    animation-delay: 10s;
+}
+.foto:nth-child(4){
+    animation-delay: 15s;
+}
+
+/**/
+
+/*MANI
+.imagen-section img {
+    width: 33.33vw;
+    height: 70vh;
+    border: 1px solid #000;
+    border-radius: 20px;
+}*/
 
 .imagen-section {
     margin: 0 0 -16px 0;
+    display: flex;
+    background-color: #000;
 }
 
 strong {
@@ -192,7 +238,9 @@ strong {
 }
 
 .container-plano-mlc {
-    border: 0.1px solid #00000054;
+    background-color: rgba(211, 209, 209, 0.795);
+    border-radius: 10px;
+    border: 3px solid #000000;
     width: 25vw;
     height: 47vh;
     text-align: center;
@@ -203,26 +251,8 @@ strong {
     margin-top: 50px;
 }
 
-.container-plano-mlc-1 {
-    border: 0.1px solid #00000054;
-    width: 25vw;
-    height: 55vh;
-    text-align: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 15px;
-    margin-bottom: 120px;
-    margin-top: 50px;
-}
-
 .container-plano-mlc h4 {
-    color: rgb(214, 109, 11);
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.container-plano-mlc-1 h4 {
-    color: rgb(214, 109, 11);
+    color: rgb(10, 10, 9);
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -230,11 +260,8 @@ strong {
 .container-plano-mlc p {
     border-bottom: 0.4px solid #00000077;
     border-top: 0.4px solid #00000077;
-}
-
-.container-plano-mlc-1 p {
-    border-bottom: 0.4px solid #00000077;
-    border-top: 0.4px solid #00000077;
+    background-color: rgba(48, 156, 53, 0.932);
+    color: #FFF;
 }
 
 .list-plano-mlc ul {
@@ -245,10 +272,6 @@ strong {
 /*BUTTON*/
 .btn-plano-mcl {
     margin-top: 10px;
-}
-
-.btn-plano-mcl-1 {
-    margin-top: 20px;
 }
 
 /*SECTION-4 gympass*/
@@ -302,6 +325,7 @@ strong {
     justify-content: baseline;
     text-align: justify;
 }
+
 /*horas*/
 .container-horas {
     margin-bottom: 50px;
@@ -484,11 +508,15 @@ aside {
 
 /*fim-footer*/
 
-@media screen and (min-width: 320px) and (max-width:558px){
+@media screen and (min-width: 100px) and (max-width:558px){
     body {
         margin: 0;
         padding: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .img-2, .img-3 {
+        display: none;
     }
 
     #mainMenu {
@@ -541,14 +569,10 @@ aside {
         display: flex;
         flex-direction: column;
         width: 50vw;
-        height: 55vh;
+        height: 40vh;
         margin-top: 0px;
         margin-left: 160px;
-    }
-
-    .imagen-section img {
-        width: 100vw;
-        height: 55vh;
+        z-index: 1;
     }
 
     /*main section*/
@@ -572,7 +596,6 @@ aside {
         flex-direction: column;
         margin-left: 48px;
     }
-
     .container-plano-mlc {
         width: 70vw;
         padding: 0;

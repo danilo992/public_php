@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Fitnees Point Academia</title>
 </head>
 <body>
   <div class="container-header">
-      <a href="#1"><i class="material-icons">mail</i><P>E-mail</P></a>
+      <a href="#menu"><i class="material-icons">home</i><P>Home</P></a>
       <a href="#1"><i class="material-icons">face</i><P>Redes Social</P></a>
-      <a href="#1"><i class="material-icons">call</i><P>Ligar</P></a>
+      <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck"><i class="material-icons">call</i><P>Ligar</P></a>
       <a href="#2"><i class="material-icons">room</i><p>Localização</p></a>
       <!--  <div id="divBusca">
           <input type="text" id="txtBusca" placeholder="Bem Vindo ao Fitness Point ;)"/>
           <img src="img/search4.png" alt="Busca..." id="btnBusca"/>
-        </div> -->
+        </div> -->                        
   </div>
   <!--HEADER-->
-    <header>
+    <header id="menu">
         <h1>
           <img src="img/logo3.jpeg"  alt="fitness point academia" title="Fitness Point Academia">
         </h1> 
@@ -30,10 +31,9 @@
         </div>
       <nav class="container-nav" id="mainMenu">
         <ul>
-            <li><a href="#1">Comprar</a></li>
-            <li><a href="#1">Planos</a></li>
+            <li><a href="#plano">Planos</a></li>
             <li><a href="#1">Modalidade</a></li>
-            <li class="visivel-list"><a href="#1">Horários</a></li> 
+            <li class="visivel-list"><a href="#horario">Horários</a></li> 
             <li><a href="#metodologia">Metodologia de Trabalho</a></li>
         </ul>
       </nav>
@@ -42,13 +42,17 @@
     <!--MAIN-->
     <main>
         <!--CAROUSEL-->
-             <section class="imagen-section">
-              <figure>
-                <img src="img/09.jpeg">
-              </figure>
+             <section class="imagen-section" id="galeria">
+                 
+                    <img class="foto" src="img/09.jpeg">
+                 
+                    <img class="foto" src="img/logo4.jpeg">
+                 
+                    <img  class="foto" src="img/maquina.jpeg">
+                  
+                    <img  class="foto" src="img/maquina.jpeg">
+                      
              </section>
-          
-          
               <!--FIM CAROUSEL-->
               <!--SECTION-ENTRA-PLANO 1 -->
               <section class="section-entra-plano" id="#planos">
@@ -65,7 +69,7 @@
               </section>
               <!--outra section-->
               <section class="container-planos" id="#planos">
-                <div class="container-plano-mlc">
+                <div class="container-plano-mlc plano-mlc">
                   <h4>Plano</h4>
                   <h4>3x/semana</h4>
                   <p>Musculação</p>
@@ -128,8 +132,8 @@
                     Tudo para você
                   </h2>
                 </section>
-                <section class="container-planos" id="#planos">
-                  <div class="container-plano-mlc-1">
+                <section class="container-planos" id="plano">
+                  <div class="container-plano-mlc">
                     <h4>Plano</h4>
                     <h4>Trimestral</h4>
                     <p>Fitness Point</p>
@@ -140,13 +144,13 @@
                           <li><strong>&#x02713;</strong>Fidelidade</li>
                         </ul>
                     </div>
-                    <div  class="btn-plano-mcl-1">
+                    <div  class="btn-plano-mcl">
                         <a href="#3">
                             <button type="button" class="btn btn-success">R$327,00</button>
                         </a>
                     </div>
                   </div>
-                  <div class="container-plano-mlc-1">
+                  <div class="container-plano-mlc">
                       <h4>Plano</h4>
                       <h4>Semestral</h4>
                       <p>Fitness Point</p>
@@ -157,13 +161,13 @@
                           <li><strong>&#x02713;</strong>Fidelidade</li>
                         </ul>
                       </div>
-                      <div  class="btn-plano-mcl-1">
+                      <div  class="btn-plano-mcl">
                           <a href="#3">
                               <button type="button" class="btn btn-success">R$594,00</button>
                           </a>
                       </div>
                     </div>
-                    <div class="container-plano-mlc-1">
+                    <div class="container-plano-mlc">
                         <h4>Plano</h4>
                         <h4>Anual</h4>
                         <p>Fitness Point</p>
@@ -174,7 +178,7 @@
                             <li><strong>&#x02713;</strong>Fidelidade</li>
                           </ul>
                         </div>
-                        <div  class="btn-plano-mcl-1">
+                        <div  class="btn-plano-mcl">
                             <a href="#3">
                                 <button type="button" class="btn btn-success">R$936,00</button>
                             </a>
@@ -189,7 +193,7 @@
                   </h2>
                 </section>
                 <section class="container-planos" id="#planos">
-                  <div class="container-plano-mlc-1">
+                  <div class="container-plano-mlc">
                     <h4>Plano</h4>
                     <h4>Treino Rápido</h4>
                     <p>Fitness Point</p>
@@ -206,7 +210,7 @@
                         </a>
                     </div>
                   </div>
-                  <div class="container-plano-mlc-1">
+                  <div class="container-plano-mlc">
                       <h4>Plano</h4>
                       <h4>Smart</h4>
                       <p>Fitness Point</p>
@@ -222,7 +226,7 @@
                           </a>
                       </div>
                     </div>
-                    <div class="container-plano-mlc-1">
+                    <div class="container-plano-mlc">
                         <h4>Plano</h4>
                         <h4>Resultado Garantido</h4>
                         <p>Fitness Point</p>
@@ -241,6 +245,7 @@
                       </div>
                 </section> 
                 <!--FIM SECTION 3--> 
+               
                 <!--SECTION HORA-->
                 <section class="container-hr-gn">
                   <section class="container-ginastica">
@@ -256,7 +261,7 @@
                         Estamos lhe esperando :)
                       </p>
                   </section>
-                  <section class="container-horas"> 
+                  <section class="container-horas" id="horario"> 
                       <h3>Horário de Funcionamento</h3>
                         <p id="fechado"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> domindo <strong class="fechado"> Fechado </strong> </p> 
                         <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> segunda-feira <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00 </strong> </p> 
@@ -362,11 +367,6 @@
       <strong>Informativo</strong>
       <p><strong>&#8902;</strong>Cadastre-se e receba novidades e promoções todos os dias em seu email. </p>
       
-    <div class="footer-hrs">
-      <p id="fechado"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> domindo <strong class="fechado"> Fechado </strong> </p> 
-      <p id="verde"> <span class="material-icone">  <i class="material-icons">schedule</i> </span> segunda à sexta <span> 07:00 - 14:00 / 17:00 - 22:00 </span> </p> 
-      <p id="verde"> <span class="material-icone">  <i class="material-icons">schedule</i> </span> sábado <span class="horas"> 09:00 - 12:00 </span> </p>
-    </div>
     </aside>
       
 
