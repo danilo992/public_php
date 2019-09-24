@@ -580,6 +580,11 @@ aside {
         height: 55vh;
     }
 
+    #galeria {
+        width: 100vw;
+        height: 40vh;
+    }
+
     /*main section*/
     .section-entra-plano h3 {
         font-size: 15px;
