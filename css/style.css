@@ -121,12 +121,13 @@ header img {
 }
 /*FIM*/
 /**/
-#galeria {
-  margin: 1px auto;
-   width: 100vw;
-   height: 100vh;
-   position: relative;
+#galeria { 
+    margin: 1px auto;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     overflow: hidden;
+    background-color: #000;
 }
 
 .foto {
@@ -138,6 +139,7 @@ header img {
 }
 
 @keyframes animacao {
+
     25% {
         
         opacity: 1;
@@ -150,7 +152,7 @@ header img {
 }
 
 .foto:nth-child(1){
-
+    animation-delay: 0s;
 }
 .foto:nth-child(2){
     animation-delay: 5s;
@@ -161,22 +163,41 @@ header img {
 .foto:nth-child(4){
     animation-delay: 15s;
 }
-
-/**/
-
-/*MANI
-.imagen-section img {
-    width: 33.33vw;
-    height: 70vh;
-    border: 1px solid #000;
-    border-radius: 20px;
-}*/
-
-.imagen-section {
-    margin: 0 0 -16px 0;
-    display: flex;
-    background-color: #000;
+.foto:nth-child(5){
+    animation-delay: 20s;
 }
+
+
+/*fim animaçõa*/
+/*fixed*/
+.fixed {
+    background-color: #141414a6;
+    position: absolute;
+    margin: -25% 0 0 32%;
+    width: 40vw;
+    height: 30vh;
+    text-align: center;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+
+.fixed h5 {
+    color: #FFF;
+    font-weight: 900;
+    font-size: 34px;
+    position: absolute;
+    margin: 1% 0 0 28%;
+    line-height: 1.3em;
+}
+.fixed p {
+    color: #FFF;
+    font-weight: 900;
+    font-size: 12px;
+    position: absolute;
+    margin: 21% 0 0 0;
+    line-height: 1.5em;
+}
+/*MANI*/
 
 strong {
     color: #0ec518ad;
@@ -579,6 +600,12 @@ aside {
         width: 100vw;
         height: 55vh;
     }
+    /*fixed*/
+    .fixed {
+        display: none;
+    }
+    /*fim fixed*/
+    
 
     #galeria {
         width: 100vw;
@@ -606,6 +633,7 @@ aside {
         flex-direction: column;
         margin-left: 48px;
     }
+
     .container-plano-mlc {
         width: 70vw;
         padding: 0;
@@ -700,7 +728,7 @@ aside {
         display: flex;
         flex-direction: column;
         background-color: #000;
-        height: 160vh;
+        height: 150vh;
         width: 100vw;
     }
 
@@ -746,18 +774,21 @@ aside {
         padding: 10px;
         background-color: #000;
     }
-
+    /*whatsapp*/
     .footer-aside {
         width: 100vw;
         display: flex;
         flex-direction: column;
-        padding: 0;
-        margin: 0;
         background-color: #000;
+        
+    }
+
+    .footer-aside img {
+        margin-left: 110px;
     }
 
     .footer-aside h5 {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .pagseguro {
