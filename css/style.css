@@ -122,10 +122,10 @@ header img {
 /*FIM*/
 /**/
 #galeria {
-    margin: 0px auto;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+  margin: 1px auto;
+   width: 100vw;
+   height: 100vh;
+   position: relative;
     overflow: hidden;
 }
 
@@ -150,7 +150,7 @@ header img {
 }
 
 .foto:nth-child(1){
-    animation-delay: 1s;
+
 }
 .foto:nth-child(2){
     animation-delay: 5s;
@@ -573,6 +573,11 @@ aside {
         margin-top: 0px;
         margin-left: 160px;
         z-index: 1;
+    }
+
+    .imagen-section img {
+        width: 100vw;
+        height: 55vh;
     }
 
     /*main section*/
