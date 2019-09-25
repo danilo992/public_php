@@ -120,7 +120,8 @@ header img {
     direction: none;
 }
 /*FIM*/
-/**/
+
+/*animacao*/
 #galeria { 
     margin: 1px auto;
     width: 100vw;
@@ -175,7 +176,7 @@ header img {
     position: absolute;
     margin: -25% 0 0 32%;
     width: 40vw;
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     border: 1px solid #FFF;
     border-radius: 10px;
