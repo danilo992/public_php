@@ -75,7 +75,7 @@ header img {
     list-style-type: none;
     text-decoration: none;
     width: 60vw;   
-    margin: -5% 0 0 30%; 
+    margin: -9% 0 0 30%; 
 }
 
 .container-nav li {
@@ -204,6 +204,19 @@ strong {
     color: #0ec518ad;
     font-size: 150%;
 }
+/*plano 1*/
+.container-planos-img ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.container-planos-img ul li {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*fi plano 1*/
 
 /*MAIN SECTION*/
 .section-entra-plano {
@@ -244,51 +257,6 @@ strong {
 .section-entra-plano-3 h2 {
     font-weight: 900;
     color: rgb(214, 109, 11);
-}
-
-/*CONTAINER-PLANO*/
-.container-planos {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.container-planos-1 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.container-plano-mlc {
-    background-color: rgba(211, 209, 209, 0.795);
-    border-radius: 10px;
-    border: 3px solid #000000;
-    width: 25vw;
-    height: 47vh;
-    text-align: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 15px;
-    margin-bottom: 100px;
-    margin-top: 50px;
-}
-
-.container-plano-mlc h4 {
-    color: rgb(10, 10, 9);
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.container-plano-mlc p {
-    border-bottom: 0.4px solid #00000077;
-    border-top: 0.4px solid #00000077;
-    background-color: rgba(48, 156, 53, 0.932);
-    color: #FFF;
-}
-
-.list-plano-mlc ul {
-    list-style-type: none;
-    margin: 0 0 0 -50px;
 }
 
 /*BUTTON*/
@@ -530,7 +498,7 @@ aside {
 
 /*fim-footer*/
 
-@media screen and (min-width: 100px) and (max-width:558px){
+@media screen and (min-width: 280px) and (max-width:560px){
     body {
         margin: 0;
         padding: 0;
@@ -628,31 +596,24 @@ aside {
         line-height: 1.5em;
     }
 
-    /*container-plano*/
-    .container-planos {
-        display: flex;
-        flex-direction: column;
-        margin-left: 48px;
+    .container-planos-img img {
+        width: 60vw;
+        height: 30vh;
+        padding: -10px;
+        margin: -19px;
     }
 
-    .container-plano-mlc {
-        width: 70vw;
-        padding: 0;
-        margin: 10px;
+    .container-planos-img ul{
+        display: flex;
+        flex-direction: column;
     }
 
     /*SECTION 2 OUTROS PLANOS*/
     .section-entra-plano {
-        height: 30vh;
+        height: 25vh;
     }
 
-    .container-plano-mlc-1 {
-        width: 70vw;
-        padding: 0;
-        margin: 10px;
-    }
-
-    /*SECTION HORA*/
+    /*container ginastica e horas*/
     .container-hr-gn {
         display: flex;
         flex-direction: column;
@@ -816,18 +777,17 @@ aside {
 
 } 
 
-@media screen and (min-width: 200px) and (max-width:360x) {
-    #mainMenu  {
+@media screen and (min-width: 560px) and (max-width:720px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .img-2, .img-3 {
         display: none;
     }
 
-    #mainMenu.toggleCls {
-        display: block;
-    }
-
-}
-
-@media screen and (min-width: 270px) and (max-width:411x) {
     #mainMenu {
         display: none;
     }
@@ -836,8 +796,272 @@ aside {
         display: block;
     }
 
-}
-@media screen and (min-width: 270px) and (max-width:731px) {
+    .container-header {
+        border-bottom: 1px solid rgba(240, 113, 9, 0.137);
+    }
+
+    .container-header p{
+        font-size: 5px;
+    }
+
+    header {
+        height: 18vh;
+    }
+
+    .hamIcon h2 {
+        display: flex;
+        justify-content: flex-end;
+        color: rgb(240, 113, 9);
+        margin-top: -50px;
+        padding: 0 10px 0 0;
+    }
+
+    header h1 img {
+        width: 30vw;
+        height: 10vh;
+        border: 1px solid rgba(240, 113, 9, 0.137);
+        border-radius: 40px;
+    }
+
+    .container-nav li {
+        border: none;
+        padding: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        font-size: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .container-nav ul {
+        background-color: rgba(10, 10, 10, 0.808);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: 50vh;
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .imagen-section {
+        width: 100vw;
+        height: 50vh !important;
+    }
+
+    .imagen-section img {
+        width: 100vw;
+        height: 55vh;
+    }
+    /*fixed*/
+    .fixed {
+        display: none;
+    }
+    /*fim fixed*/
+    
+
+    #galeria {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    /*main section*/
+    .section-entra-plano h3 {
+        font-size: 15px;
+        color: rgb(214, 109, 11);
+    }
+
+    .section-entra-plano h2 {
+        font-size: 10px;
+    }
+
+    .section-entra-plano p {
+        font-size: 10px;
+        line-height: 1.5em;
+    }
+
+    .container-planos-img img {
+        width: 60vw;
+        height: 30vh;
+        padding: -10px;
+        margin: -19px;
+    }
+
+    .container-planos-img ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*SECTION 2 OUTROS PLANOS*/
+    .section-entra-plano {
+        height: 25vh;
+    }
+
+    /*container ginastica e horas*/
+    .container-hr-gn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-ginastica {
+        width: 80vw;
+        margin-left: -5px;
+    }
+
+    .container-ginastica h4{
+        margin-top: 17px;
+        border-bottom: 1px solid #f13319;
+    }
+
+    .container-ginastica p {
+        width: 70vw;
+    }
+
+    .container-horas {
+        width: 80vw;
+
+    }
+
+    .container-horas strong {
+        font-size: 10px;
+    }
+
+    /*container metodologia*/
+    .container-metodogia {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .container-metodogia article {
+        width: 90vw;
+        text-align: center;
+        padding: 15px;
+    }
+
+    /*formulario index-php*/
+    .container-formulario {
+        width: 100vw;
+        padding: 0 100px 0 0;
+    }
+
+    .container-formulario h5 {
+        font-size: 13px;
+        padding: 10px 50px 0 70px;
+        width: 100vw;
+
+    }
+
+    .container-formulario input {
+        width: 70vw;
+        padding: 1px;
+
+    }
+
+    .container-formulario label {
+        font-size: 10px;
+    }
+
+    input[type=submit] {
+        position: relative;
+        text-align: center;
+        margin: 9px 0 0 0;
+
+    }
+
+    /*footer*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        height: 150vh;
+        width: 100vw;
+    }
+
+    .list-redes-social {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100vw;
+        margin-left: 22px;
+    }
+
+    .list-redes-social a {
+        padding: 8px;
+        margin: 2px;
+    }
+
+    .list-redes-social img {
+        padding: 3px;
+        border-radius: 50px;
+        margin: 0;
+    }
+
+    .list-redes-social figcaption {
+        display: none;
+    }
+
+    /*endereço*/
+    .endereco {
+        width: 100vw;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .endereco p {
+        padding:0 20px 0 20px;
+    }
+
+    .footer-aside img {
+        margin-left: 50px;
+    }
+
+    .footer-hrs {
+        border-top: 1px solid #f0e9e83b;
+        padding: 10px;
+        background-color: #000;
+    }
+    /*whatsapp*/
+    .footer-aside {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        
+    }
+
+    .footer-aside img {
+        margin-left: 110px;
+    }
+
+    .footer-aside h5 {
+        font-size: 16px;
+    }
+
+    .pagseguro {
+        display: flex;
+        flex-direction: column;
+        margin: 35px 0 0 -15px;
+        background-color: #000;
+    }
+    
+    .pagseguro aside {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pagseguro p {
+        display: none;
+    }
+
+    .pagseguro img {
+        width: 60vw;
+        height: 27vh;
+       margin-left: 89px;
+    }
+
+} 
+
+
+@media screen and (min-width: 700px) and (max-width:800px) {
     #mainMenu {
         display: none;
     }
@@ -846,11 +1070,9 @@ aside {
         display: block;
     }
 
-}
-@media screen and (min-width: 731px) and (max-width: 823px) {
-   
-
-}
+    .fixed {
+        display: none;
+    }
 
 @media screen and (min-width: 823px) and (max-width: 1368px) {
     .hamIcon {
