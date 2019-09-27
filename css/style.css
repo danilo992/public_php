@@ -15,7 +15,7 @@
 }
 
 .container-header p {
-    color: #FFF;
+    color: rgb(145, 135, 135);
     margin: 3px 0 0 8px;
 }
 
@@ -30,7 +30,7 @@
     text-decoration: none !important;
     direction: none;
     list-style-type: none;
-    color: rgb(255, 255, 255);
+    color: rgb(145, 135, 135);
 }
 
 .container-header a:hover {
@@ -39,7 +39,7 @@
 
 .container-header i {
     margin-top: 3px;
-    color: #b8adadd8;
+    color: rgb(145, 135, 135);
 }
 
 .container-header i:hover {
@@ -62,12 +62,19 @@ header h1 {
     display: flex;
 }
 
-header img {
-    width: 12vw;
-    height: 14vh;
+header h1 img {
+    width: 150px;
+    height: 80px;
     margin: 42px 0 0 0;
     border-radius: 10px;
     border: 1px solid rgb(255, 104, 4);
+}
+
+.container-nav {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 0 0;
 }
 
 .container-nav ul{
@@ -75,7 +82,7 @@ header img {
     list-style-type: none;
     text-decoration: none;
     width: 60vw;   
-    margin: -9% 0 0 30%; 
+    margin: -66px 0 0 0; 
 }
 
 .container-nav li {
@@ -103,7 +110,7 @@ header img {
 }
 
 .container-nav a {
-    color: rgb(240, 231, 226);
+    color: rgb(145, 135, 135);
     font-weight: 900;
     font-size: 130%;
     display: flex;
@@ -121,14 +128,18 @@ header img {
 }
 /*FIM*/
 
-/*animacao*/
+/*animacao slide*/
 #galeria { 
     margin: 1px auto;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     position: relative;
     overflow: hidden;
     background-color: #000;
+}
+
+#galeria img {
+    width: 100vw;
 }
 
 .foto {
@@ -169,8 +180,9 @@ header img {
 }
 
 
-/*fim animaçõa*/
-/*fixed*/
+/*fim animaçõa slide*/
+
+/*fixed */
 .fixed {
     background-color: #141414a6;
     position: absolute;
@@ -198,28 +210,18 @@ header img {
     margin: 21% 0 0 0;
     line-height: 1.5em;
 }
-/*MANI*/
+/*fim fixed*/
 
+/* mian section */
+main {
+    background-color: rgb(19, 18, 18);
+}
 strong {
     color: #0ec518ad;
     font-size: 150%;
 }
-/*plano 1*/
-.container-planos-img ul {
-    display: flex;
-    list-style-type: none;
-}
 
-.container-planos-img ul li {
-    padding: 10px;
-    margin: 10px;
-}
-
-
-/*fi plano 1*/
-
-/*MAIN SECTION*/
-.section-entra-plano {
+.section-plano {
     background-color: rgb(3, 3, 3);
     text-align: center;
     justify-content: center;
@@ -229,24 +231,24 @@ strong {
     width: 100vw;
 }
 
-.section-entra-plano p {
-    color: rgb(99, 93, 93);
+p {
+    color: rgb(243, 230, 230);
     font-weight: 900;
 }
 
 
-.section-entra-plano h3 {
+.section-plano h3 {
     color: #fdfaffe8;
-    font-weight: 900;
+    font-weight: 400;
 }
 
-.section-entra-plano h2 {
+.section-plano h2 {
     font-weight: 900;
     color: rgb(214, 109, 11);
     line-height: 2.0em;
 }
 
-.section-entra-plano-3 {
+.section-plano {
     background-color: rgba(3, 3, 3, 0.952);
     text-align: center;
     justify-content: center;
@@ -254,17 +256,63 @@ strong {
     width: 100vw;
 }
 
-.section-entra-plano-3 h2 {
+.section-plano-h2 h2 {
     font-weight: 900;
     color: rgb(214, 109, 11);
+    text-align: center;
 }
 
-/*BUTTON*/
+/*container */
+.container-planos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-planos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-plano-mlc {
+    background-color: rgba(211, 209, 209, 0.795);
+    border-radius: 10px;
+    border: 3px solid #000000;
+    width: 25vw;
+    height: 47vh;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.container-plano-mlc h4 {
+    color: rgb(10, 10, 9);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container-plano-mlc p {
+    border-bottom: 0.4px solid #00000077;
+    border-top: 0.4px solid #00000077;
+    background-color: rgba(48, 156, 53, 0.932);
+    color: #FFF;
+}
+
+.list-plano-mlc ul {
+    list-style-type: none;
+    margin: 0 0 0 -50px;
+}
+
+/*button container*/
 .btn-plano-mcl {
     margin-top: 10px;
 }
 
-/*SECTION-4 gympass*/
+/*section gympass*/
 .container-section-4 {
     background-color: #070607;
     text-align: center;
@@ -290,9 +338,9 @@ strong {
 .container-section-4 strong {
     color: hsl(0, 83%, 60%);
 }
-/*FIM SECTION 4*/
+/*fim secion*/
 
-/*SECTION HORAS*/
+/*section horas e ginastica*/
 .container-hr-gn {
     display: flex;
     width: 90vw;
@@ -306,6 +354,7 @@ strong {
     margin-bottom: 30px;
     font-weight: bold;
     margin-left: 28px;
+    color: #FFF;
 }
 
 .container-ginastica P {
@@ -317,21 +366,18 @@ strong {
 }
 
 /*horas*/
-.container-horas {
+.container-horas, h4 {
     margin-bottom: 50px;
+    color: #FFF;
 }
 
 .container-horas strong {
-    color: #070607;
+    color: #f1edf1;
     font-size: 15px;
 }
 
 .container-horas p {
-    border-bottom: 0.4px solid #0000006c;
-}
-
-.container-horas h3 {
-    margin-bottom: 30px;
+    border-bottom: 0.4px solid #807a7a6c;
 }
 
 .material-icone i {
@@ -359,7 +405,7 @@ strong {
 .paragrafo {
     color: #f13319;
 }
-/*FIM SECTION HORS*/
+/*fim section horas e ginastica*/
 
 /*container metodologia*/
 .container-metodogia {
@@ -374,8 +420,7 @@ article {
 }
 
 article ul {
-    list-style-type: none;
-    margin-left: -32px;
+    color: #FFF;
 }
 
 article h3 {
@@ -497,18 +542,14 @@ aside {
 }
 
 /*fim-footer*/
-
-@media screen and (min-width: 280px) and (max-width:560px){
+/*---- @media screen --------------------------*/
+@media screen and (min-width: 100px) and (max-width:558px){
     body {
         margin: 0;
         padding: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-
-    .img-2, .img-3 {
-        display: none;
-    }
-
+/*menu javascript*/
     #mainMenu {
         display: none;
     }
@@ -516,6 +557,7 @@ aside {
     #mainMenu.toggleCls {
         display: block;
     }
+/*fim menu js*/
 
     .container-header {
         border-bottom: 1px solid rgba(240, 113, 9, 0.137);
@@ -526,7 +568,7 @@ aside {
     }
 
     header {
-        height: 18vh;
+        height: 15vh;
     }
 
     .hamIcon h2 {
@@ -538,10 +580,10 @@ aside {
     }
 
     header h1 img {
-        width: 50vw;
-        height: 10vh;
-        border: 1px solid rgba(240, 113, 9, 0.137);
-        border-radius: 40px;
+        width: 150px;
+        height: 66px;
+        border: 1px solid rgb(240, 113, 9);
+        border-radius: 10px;
     }
 
     .container-nav li {
@@ -582,38 +624,48 @@ aside {
     }
 
     /*main section*/
-    .section-entra-plano h3 {
+    .section-plano h3 {
         font-size: 15px;
         color: rgb(214, 109, 11);
     }
 
-    .section-entra-plano h2 {
+    .section-plano-h2 h2 {
+        font-size: 10px;
+    }
+    .section-plano h2 {
         font-size: 10px;
     }
 
-    .section-entra-plano p {
+    .section-plano p {
         font-size: 10px;
         line-height: 1.5em;
     }
 
-    .container-planos-img img {
-        width: 60vw;
+    .section-plano {
         height: 30vh;
-        padding: -10px;
-        margin: -19px;
     }
 
-    .container-planos-img ul{
+    /*container-plano*/
+    .container-planos {
         display: flex;
         flex-direction: column;
+        margin-left: 15%;
+        width: 100vw;
     }
 
-    /*SECTION 2 OUTROS PLANOS*/
-    .section-entra-plano {
-        height: 25vh;
+    .container-plano-mlc {
+        width: 70vw;
+        padding: 0;
+        margin: 10px;
     }
 
-    /*container ginastica e horas*/
+    .container-plano-mlc-1 {
+        width: 70vw;
+        padding: 0;
+        margin: 10px;
+    }
+
+    /*hooras e ginastica*/
     .container-hr-gn {
         display: flex;
         flex-direction: column;
@@ -784,10 +836,6 @@ aside {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    .img-2, .img-3 {
-        display: none;
-    }
-
     #mainMenu {
         display: none;
     }
@@ -817,10 +865,11 @@ aside {
     }
 
     header h1 img {
-        width: 30vw;
-        height: 10vh;
-        border: 1px solid rgba(240, 113, 9, 0.137);
-        border-radius: 40px;
+        width: 150px;
+        height: 60px;
+        margin: 42px 0 0 0;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 104, 4);
     }
 
     .container-nav li {
@@ -1073,6 +1122,7 @@ aside {
     .fixed {
         display: none;
     }
+}
 
 @media screen and (min-width: 823px) and (max-width: 1368px) {
     .hamIcon {
@@ -1081,6 +1131,5 @@ aside {
     }
 
 }
-
 
 
