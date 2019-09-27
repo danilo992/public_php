@@ -646,6 +646,9 @@ aside {
     }
 
     /*container-plano*/
+    #plano-none {
+        display: none;
+    }
     .container-planos {
         display: flex;
         flex-direction: column;
