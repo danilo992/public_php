@@ -553,10 +553,10 @@ aside {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 /*menu javascript*/
-    #mainMenu {
+    #mainMenu, .pagseguro p, .fixed {
         display: none;
     }
-
+    
     #mainMenu.toggleCls {
         display: block;
     }
@@ -614,13 +614,7 @@ aside {
         width: 100vw;
         height: 55vh;
     }
-    /*fixed*/
-    .fixed {
-        display: none;
-    }
-    /*fim fixed*/
-    
-
+   
     #galeria {
         width: 100vw;
         height: 40vh;
@@ -822,10 +816,6 @@ aside {
         padding: 0;
     }
 
-    .pagseguro p {
-        display: none;
-    }
-
     .pagseguro img {
         width: 60vw;
         height: 27vh;
@@ -834,19 +824,20 @@ aside {
 
 } 
 /*---------  media screen  -----------*/
-@media screen and (min-width: 560px) and (max-width:720px) {
+@media screen and (min-width: 375px) and (max-width:667px) {
     body {
         margin: 0;
         padding: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    #mainMenu {
+    #mainMenu, .fixed {
         display: none;
     }
 
-    #mainMenu.toggleCls {
+    #mainMenu.toggleCls, .hamIcon {
         display: block;
+        margin-right: 5%;
     }
 
     .container-header {
@@ -871,7 +862,7 @@ aside {
 
     header h1 img {
         width: 150px;
-        height: 60px;
+        height: 72px;
         margin: 42px 0 0 0;
         border-radius: 10px;
         border: 1px solid rgb(255, 104, 4);
@@ -899,20 +890,14 @@ aside {
 
     .imagen-section {
         width: 100vw;
-        height: 50vh !important;
+        height: 40vh !important;
     }
 
     .imagen-section img {
         width: 100vw;
         height: 55vh;
     }
-    /*fixed*/
-    .fixed {
-        display: none;
-    }
-    /*fim fixed*/
-    
-
+   
     #galeria {
         width: 100vw;
         height: 40vh;
@@ -924,7 +909,7 @@ aside {
         color: rgb(214, 109, 11);
     }
 
-    .section-entra-plano h2 {
+    .section-entra-plano h2, .container-horas strong {
         font-size: 10px;
     }
 
@@ -933,25 +918,18 @@ aside {
         line-height: 1.5em;
     }
 
-    .container-planos-img img {
-        width: 60vw;
-        height: 30vh;
-        padding: -10px;
-        margin: -19px;
-    }
-
-    .container-planos-img ul{
-        display: flex;
-        flex-direction: column;
-    }
-
-    /*SECTION 2 OUTROS PLANOS*/
     .section-entra-plano {
         height: 25vh;
     }
 
+    .container-plano-mlc {
+        width: 74vw;
+        height: 42vh;
+
+    }
+
     /*container ginastica e horas*/
-    .container-hr-gn {
+    .container-hr-gn{
         display: flex;
         flex-direction: column;
     }
@@ -973,10 +951,6 @@ aside {
     .container-horas {
         width: 80vw;
 
-    }
-
-    .container-horas strong {
-        font-size: 10px;
     }
 
     /*container metodologia*/
