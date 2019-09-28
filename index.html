@@ -5,31 +5,29 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Fitnees Point Academia</title>
 </head>
 <body>
+  <!--container header-->
   <div class="container-header">
       <a href="#menu"><i class="material-icons">home</i><P>Home</P></a>
       <a href="#1"><i class="material-icons">face</i><P>Redes Social</P></a>
       <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck"><i class="material-icons">call</i><P>Ligar</P></a>
-      <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"><i class="material-icons">room</i><p>Localização</p></a>
-      <!--  <div id="divBusca">
-          <input type="text" id="txtBusca" placeholder="Bem Vindo ao Fitness Point ;)"/>
-          <img src="img/search4.png" alt="Busca..." id="btnBusca"/>
-        </div> -->                        
+      <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"><i class="material-icons">room</i><p>Localização</p></a>                      
   </div>
-  <!--HEADER-->
+  <!--fim container header-->
+  <!--header-->
     <header id="menu">
         <h1>
           <img src="img/logo3.jpeg"  alt="fitness point academia" title="Fitness Point Academia">
         </h1> 
-      <!--button media screen-->   
+      <!--button media screen javascript-->   
         <div class="hamIcon" onclick="toggleClass()">
           <h2>&#9776;</h2>
         </div>
-      <!--fim button-->
+      <!--fim button js-->
       <nav class="container-nav" id="mainMenu">
         <ul>
             <li><a href="plano.html">Planos</a></li>
@@ -39,7 +37,7 @@
         </ul>
       </nav>
     </header>
-    <!--FIM header-->
+    <!--fim header-->
     <!--MAIN-->
     <main>
         <!--CAROUSEL-->
@@ -121,7 +119,16 @@
                       </div>
                     </div>
               </section> 
-              <!--FIM SECTION 1 -->
+              <!--fim section -->
+
+              <!--button bootstrap 4-->
+              <div class="btn-plano">
+                <a href="plano.html">
+                  <button type="button" class="btn btn-secondary">Mais planos >></button>
+                </a>
+              </div>
+              <!--fim botton bootstrap 4-->
+
               <div id="plano-none">
               <!--SECTION 2 OUTROS PLANOS-->
               <section class="section-plano" >

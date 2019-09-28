@@ -263,6 +263,9 @@ p {
 }
 
 /*container */
+.btn-plano {
+    display: none;
+}
 .container-planos {
     display: flex;
     text-align: center;
@@ -646,25 +649,23 @@ aside {
     }
 
     /*container-plano*/
+    .btn-plano {
+        display: block;
+        text-align: center;
+    }
     #plano-none {
         display: none;
     }
     .container-planos {
         display: flex;
         flex-direction: column;
-        margin-left: 15%;
+        margin-left: 13%;
         width: 100vw;
     }
 
-    .container-plano-mlc {
+    .container-plano-mlc, .container-plano-mlc-1{
         width: 70vw;
         height: 35vh;
-        padding: 0;
-        margin: 10px;
-    }
-
-    .container-plano-mlc-1 {
-        width: 70vw;
         padding: 0;
         margin: 10px;
     }
@@ -832,7 +833,7 @@ aside {
     }
 
 } 
-
+/*---------  media screen  -----------*/
 @media screen and (min-width: 560px) and (max-width:720px) {
     body {
         margin: 0;
