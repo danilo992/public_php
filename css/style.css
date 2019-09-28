@@ -48,7 +48,7 @@
 }
 /*HEADER*/
 header {
-    height: 22vh;
+    height: 130px;
 	width: 100vw;
 	background-color: #070607;
 	display: flex;
@@ -571,7 +571,7 @@ aside {
     }
 
     header {
-        height: 18vh;
+        height: 110px;
     }
 
     .hamIcon h2 {
@@ -849,7 +849,7 @@ aside {
     }
 
     header {
-        height: 18vh;
+        height: 115px;
     }
 
     .hamIcon h2 {
