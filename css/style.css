@@ -12,8 +12,8 @@ body {
 /*CONTAINER HEADER*/
 .container-header {
     display: flex;
-    background-color: #000000e0;
-    width: 100%;
+    background-color: #000;
+    width: 98.5%;
     position: fixed;
     z-index: 0;
 }
@@ -38,16 +38,17 @@ body {
 }
 
 .container-header a:hover {
-    color: rgba(167, 25, 233, 0.644);
+    color: rgb(157, 8, 187);
 }
 
 .container-header i {
     margin-top: 3px;
     color: rgb(145, 135, 135);
+    font-size: 30px;
 }
 
 .container-header i:hover {
-    color: #e47114d5;
+    color: rgb(157, 8, 187);
     direction: none;
 }
 /*HEADER*/
@@ -88,7 +89,7 @@ header h1 img {
 }
 
 .container-nav li {
-    border-left: 0.3px solid rgb(31, 30, 30);
+    border-left: 0.3px solid rgb(27, 26, 26);
     border-right: 0.3px solid rgb(27, 26, 26);
     padding: 0 0.5% 0 0.5%;
     width: 80%;
@@ -99,16 +100,16 @@ header h1 img {
 }
 
 .container-nav li:hover {
-    border-left: 0.3px solid rgb(29, 28, 27);
+    border-left: 0.3px solid rgb(27, 26, 26);
     padding: 0 1% 0 1%;
     width: 80%;
     text-align: center;
     justify-content: center;
     margin: -2% 0 0 0;
-    background-color: rgba(39, 36, 36, 0.568);
+    background-color: rgb(27, 26, 26);
     text-decoration: none;
-    border-bottom: 0.5px solid rgba(35, 33, 36, 0.548);
-    border-top: 0.5px solid rgba(35, 33, 36, 0.548);
+    border-bottom: 0.5px solid rgb(27, 26, 26);
+    border-top: 0.5px solid rgb(27, 26, 26);
 }
 
 .container-nav a {
@@ -125,7 +126,7 @@ header h1 img {
 
 .container-nav a:hover {
     text-decoration: none;
-    color: rgba(216, 74, 216, 0.678);
+    color: rgb(157, 8, 187);
     direction: none;
 }
 /*FIM*/
@@ -134,7 +135,7 @@ header h1 img {
 #galeria { 
     margin: 1px auto;
     width: 100%;
-    height: 80vh;
+    height: 65vh;
     position: relative;
     overflow: hidden;
     background-color: #000;
@@ -188,9 +189,9 @@ header h1 img {
 .fixed {
     background-color: #141414a6;
     position: absolute;
-    margin: -25% 0 0 32%;
-    width: 40%;
-    height: 40%;
+    margin: -25% 0 0 30%;
+    width: 600px;
+    height: 250px;
     text-align: center;
     border: 1px solid #FFF;
     border-radius: 10px;
@@ -198,10 +199,9 @@ header h1 img {
 
 .fixed h5 {
     color: rgb(157, 8, 187);
-    font-weight: 900;
-    font-size: 34px;
+    font-size: 40px;
     position: absolute;
-    margin: 1% 0 0 28%;
+    margin: 1% 0 0 30%;
     line-height: 1.3em;
 }
 .fixed p {
@@ -456,8 +456,8 @@ form {
     width: 40vw;
 }
 
-input[type=submit] {
-    color: rgba(211, 0, 253, 0.589);
+input[type=submit], input[type=reset] {
+    color: rgb(157, 8, 187);
     background-color: #000;
     width: 120px;
     margin-top: 10px;
@@ -467,7 +467,7 @@ input[type=submit] {
 
 input {
     padding: 5px;
-    border: 0.1px solid rgba(211, 0, 253, 0.589);
+    border: 0.1px solid rgb(157, 8, 187);
     border-radius: 5px;
     color: #000;
 }
@@ -497,45 +497,42 @@ aside {
     width: 10vw;
 }
 
-.footer-aside {
-    width: 50vw;
+.aside-whats {
+    width: 50%;
 }
 
-.footer-aside a {
+.aside-whats a {
     display: flex;
     justify-content: center;
     color: #0ec518ad;
-    margin: 0 0 0 -25px;
     text-decoration: none;
 }
 
-.footer-aside a:hover {
+.aside-whats a:hover {
     display: flex;
     justify-content: center;
-    color: #c2c50ea2;
-    margin: 0 0 0 -25px;
+    color: #c50e0ea2;
     text-decoration: none;
 }
 
-.footer-aside img {
+.aside-whats img {
     border-radius: 10px;
 }
 
+/*pagseguro*/
 .pagseguro {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 50px;
-    width: 48vw;
+    margin: 0 0 0 27%;
 }
 
-.pagseguro p {
-    width: 21vw;
+.pagseguro p{
+    width: 30vw;
 }
 
 .pagseguro img {
-    width: 200px;
-    height: 230px;
-    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #000;
+    border: none;  
 }
 
 .endereco {
@@ -567,7 +564,7 @@ aside {
     }
 
     .container-header p{
-        font-size: 5px;
+        font-size: 10px;
     }
 
     header {
@@ -593,13 +590,13 @@ aside {
         border: none;
         padding: 5px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-        font-size: 10px;
+        font-size: 10px !important;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
     .container-nav ul {
-        background-color: rgba(10, 10, 10, 0.808);
+        background-color: rgb(10, 10, 10);
         position: relative;
         display: flex;
         flex-direction: column;
@@ -661,6 +658,7 @@ aside {
 
     .container-horas {
         width: 80vw;
+        margin-top: 40px;
 
     }
 
@@ -694,8 +692,8 @@ aside {
 
     input[type=submit] {
         position: relative;
-        text-align: center;
         margin: 9px 0 0 0;
+        width: 100px;
 
     }
 
@@ -751,39 +749,37 @@ aside {
         background-color: #000;
     }
     /*whatsapp*/
-    .footer-aside {
-        width: 100vw;
+    .aside-whats {
+        width: 100%;
         display: flex;
         flex-direction: column;
         background-color: #000;
+        text-align: center;
+        padding: 0;
         
     }
 
-    .footer-aside img {
-        margin-left: 110px;
-    }
-
-    .footer-aside h5 {
+    .aside-whats h5 {
         font-size: 16px;
     }
 
     .pagseguro {
         display: flex;
         flex-direction: column;
-        margin: 35px 0 0 -30px;
         background-color: #000;
+        margin: 0 0 0 12px;
     }
    
     .pagseguro img {
-        width: 200px;
-        height: 230px;
+        width: 330px;
+        height: 100px;
         border-radius: 20px;
     }
     
 
 } 
 /*---------  media screen  -----------*/
-@media screen and (min-width: 375px) and (max-width:667px) {
+@media screen and (min-width: 375px) and (max-width:700px) {
     body {
         margin: 0;
         padding: 0;
@@ -804,7 +800,7 @@ aside {
     }
 
     .container-header p{
-        font-size: 5px;
+        font-size: 9px;
     }
 
     header {
@@ -831,18 +827,17 @@ aside {
         border: none;
         padding: 5px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-        font-size: 10px;
+        font-size: 20px;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
     .container-nav ul {
-        background-color: rgba(10, 10, 10, 0.808);
+        background-color: #000;
         position: relative;
         display: flex;
         flex-direction: column;
         width: 50%;
-        height: 50vh;
         margin-top: 0px;
         z-index: 1;
     }
@@ -889,11 +884,12 @@ aside {
 
     .container-horas {
         width: 80vw;
+        margin: 50px 0 10px 0;
 
     }
     /*formulario index-php*/
     .container-formulario {
-        width: 100vw;
+        width: 100vw ;
         padding: 0 100px 0 0;
     }
 
@@ -927,13 +923,13 @@ aside {
         flex-direction: column;
         background-color: #000;
         height: 150vh;
-        width: 100vw;
+        width: 100%;
     }
 
     .list-redes-social {
         display: flex;
         flex-wrap: wrap; 
-        width: 100vw;
+        width: 100%;
         margin-left: 22px;
     }
 
@@ -954,7 +950,7 @@ aside {
 
     /*endereço*/
     .endereco {
-        width: 100vw;
+        width: 100%;
         padding: 2px;
         margin: 2px;
     }
@@ -963,29 +959,25 @@ aside {
         padding:0 20px 0 20px;
     }
 
-    .footer-aside img {
-        margin-left: 50px;
-    }
-
     .footer-hrs {
         border-top: 1px solid #f0e9e83b;
         padding: 10px;
         background-color: #000;
     }
     /*whatsapp*/
-    .footer-aside {
-        width: 100vw;
+    .aside-whats {
+        width: 100%;
         display: flex;
         flex-direction: column;
         background-color: #000;
         
     }
 
-    .footer-aside img {
+    .aside-whats img {
         margin-left: 110px;
     }
 
-    .footer-aside h5 {
+    .aside-whats h5 {
         font-size: 16px;
     }
 
@@ -995,23 +987,19 @@ aside {
         margin: 35px 0 0 -15px;
         background-color: #000;
     }
-    
-    .pagseguro aside {
-        margin: 0;
-        padding: 0;
-    }
-
+  
     .pagseguro p {
         display: none;
     }
 
     .pagseguro img {
-        width: 60vw;
-        height: 27vh;
-       margin-left: 89px;
+        width: 300px;
+        height: 100px;
+        margin-left: 60px;
     }
 
-} 
+}
+
 
 
 @media screen and (min-width: 700px) and (max-width:800px) {

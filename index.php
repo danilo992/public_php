@@ -1,4 +1,8 @@
+<?php
 
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -123,15 +127,13 @@
 
               <!--button bootstrap 4-->
               <div class="btn-plano">
-              <a href="plano.html">
+              <a href="plano.php">
                 <button type="button" class="btn btn-primary">Mais planos >></button>
               </a>
               </div>
-              
               <!--fim botton bootstrap 4-->
-
+              <!--section planos-->
               <div id="plano-none">
-              <!--SECTION 2 OUTROS PLANOS-->
               <section class="section-plano" >
                   <h3>
                     Nossos planos
@@ -255,14 +257,14 @@
                         </div>
                       </div>
                 </section> 
-                <!--fim plano--> 
               </div>
+               <!--fim plano--> 
                 <!--SECTION HORA-->
                 <section class="container-hr-gn">
                   <section class="container-ginastica">
                     <h4>Ginástica</h4>
                       <p>
-                        Não temos aulas de ginática, Somente musculação (dentro da academia).
+                        Não temos aulas de ginástica, Somente musculação (dentro da academia).
                         Oferecemos a possibilidade de uma ou mais pessoas
                         formarem grupos para aulas de ginástica: treinamneto
                         funcional, alongamento e Fast Training.
@@ -275,11 +277,11 @@
                   <section class="container-horas" id="horario"> 
                       <h4>Horário de Funcionamento</h4>
                         <p id="fechado"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> domindo <strong class="fechado"> Fechado </strong> </p> 
-                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> segunda-feira <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00 </strong> </p> 
-                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> terça-feira <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
-                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> quarta-feira <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
-                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> quinta-feira <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
-                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> sexta-feira <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
+                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> segunda <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00 </strong> </p> 
+                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> terça <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
+                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> quarta <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
+                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> quinta <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
+                        <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> sexta <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
                         <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> sábado <strong class="horas"> 09:00 - 12:00 </strong> </p> 
                   </section>
                 </section>  
@@ -329,22 +331,27 @@
                       </article>
                 </section> 
                 <!--fim metodolia--> 
+
                 <!--formulario index-php-->
                 <section class="container-formulario">
-                  <h5>Cadastre suas informações para receber novidades e promoções</h5>
-                  <form method="POST" action="#">
+                  <h5>Cadastre-se suas informações e receba novidades e promoções</h5>
+                  <?php
+                    if(isset($_SESSION['msg'])) {
+                      echo $_SESSION['msg'];
+                      unset($_SESSION['msg']);
+                    }
+                  ?>
+                    <form method="POST" action="processa.php">
                       <label>Nome Completo:</label>
-                          <input type="text" name="full_name" id="full_name" placeholder="Nome Completo" maxlength="80" required>
+                          <input type="text" name="nome" placeholder="Nome Completo" maxlength="80" required>
                       <label>E-mail:</label>
-                          <input type="email" name="email" id="email" placeholder="E-mail" required>
-                      <label>Contato</label>
-                      <input type="text" name="numero" id="numero" placeholder="(DD) 9 9999-9999">  
-                     <input type="submit" value="envia" id="submit">
-                  </form>
-              </section>
+                          <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="submit" value="enviar">
+                    </form>
+                </section>
                 <!--fim formulario-->
     </main>
-    <!--FIM MAIN-->
+    <!--fim main-->
     <!--footer-->
     <footer>
       <!--aside 1-->
@@ -368,18 +375,18 @@
 
       <!--aside 2-->
       <aside class="endereco">
-        <p><strong>&#8902;</strong> Professores:Calos Vasques (Totonho)</p>
-        <p><strong>&#8902;</strong> Vinícius Fernandes (Vini)</p>
+        <p><strong>&#8902;</strong> Professores:<br> Calos Vasques (Totonho)</p>
+        <p><strong>&#8902;</strong> Professores:<br> Vinícius Fernandes (Vini)</p>
           <address>
             <strong>&#8902;</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
           </address>
       <p>Siga-nos nas redes sociais</p>
       <strong>Informativo</strong>
-      <p><strong>&#8902;</strong>Cadastre-se e receba novidades e promoções todos os dias em seu email. </p>
+      <p><strong>&#8902;</strong>Cadatre-se para receber novidades e promoções em seu email</p>
     </aside>
 
       <!--aside 3-->
-      <aside class="footer-aside">
+      <aside class="aside-whats">
         <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck">
           <figure><img src="img/icons8-cor-50.png" alt="whatsapp" title="whatsapp">
             <figcaption><h5>Entre em contato via whatsapp<br> para obter mais informações.</h5></figcaption>
@@ -395,7 +402,7 @@
               Escolha a melhor formar de pagamento para você!
             </p>
           </aside>
-            <figure><img src="img/banner-pagseguro.png" alt="pagseguro" title="pagseguro">
+            <figure><img src="img/pagseguro-lightbox.png" alt="pagseguro" title="pagseguro">
               <figcaption></figcaption>
             </figure>
         </aside>

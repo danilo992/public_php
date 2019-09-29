@@ -7,12 +7,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Fitnees Point Academia</title>
+    <title>Fitnees Point Planos</title>
 </head>
 <body>
   <div class="container-header">
       <a href="#menu"><i class="material-icons">home</i><P>Home</P></a>
-      <a href="#1"><i class="material-icons">face</i><P>Redes Social</P></a>
+      <a href="#1"><i class="material-icons">face</i><P>Redes Sociais</P></a>
       <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck"><i class="material-icons">call</i><P>Ligar</P></a>
       <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"><i class="material-icons">room</i><p>Localização</p></a>
       <!--  <div id="divBusca">
@@ -108,8 +108,8 @@
                         </div>
                       </div>
                 </section> 
-                <!--FIM SECTION 2-->
-                 <!--SECTION 3 OUTROS PLANOS-->
+                <!--fim section-->
+                 <!--section plano h2-->
               <section class="section-plano-h2">
                   <h2>
                     Venha treinar :)
@@ -167,14 +167,12 @@
                         </div>
                       </div>
                 </section> 
-                <!--FIM SECTION 3--> 
-               
-                
+                <!--fim section-->        
     </main>
-    <!--FIM MAIN-->
+    <!--fim main-->
     <!--footer-->
     <footer>
-      <!--aside 1-->
+      <!--container redes sociais-->
       <aside class="list-redes-social">
        <a href="#"> <figure><img src="img/facebook_2.png">
           <figcaption>Facebook</figcaption>
@@ -192,11 +190,12 @@
           <figcaption>Goolge</figcaption>
         </figure> </a>
       </aside>
+      <!--fim redes sociais-->
 
-      <!--aside 2-->
+      <!--container endereço-->
       <aside class="endereco">
-        <p><strong>&#8902;</strong> Professores:Calos Vasques (Totonho)</p>
-        <p><strong>&#8902;</strong> Vinícius Fernandes (Vini)</p>
+        <p><strong>&#8902;</strong> Professores: Calos Vasques (Totonho)</p>
+        <p><strong>&#8902;</strong> Professores: Vinícius Fernandes (Vini)</p>
           <address>
             <strong>&#8902;</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
           </address>
@@ -204,29 +203,8 @@
       <strong>Informativo</strong>
       <p><strong>&#8902;</strong>Cadastre-se e receba novidades e promoções todos os dias em seu email. </p>
     </aside>
+    <!--fim container endereço-->
 
-      <!--aside 3-->
-      <aside class="footer-aside">
-        <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck">
-          <figure><img src="img/icons8-cor-50.png" alt="whatsapp" title="whatsapp">
-            <figcaption><h5>Entre em contato via whatsapp<br> para obter mais informações.</h5></figcaption>
-          </figure>
-        </a>
-        <aside class="pagseguro">
-          <aside>
-            <p><strong>Forma de pagamento</strong></p>
-            <p>PagSeguro UOL</p>
-            <p>Parcele suas compras em até 12x</p>
-            <p>
-              O PagSeguro oferece diversas formas de pagamento. 
-              Escolha a melhor formar de pagamento para você!
-            </p>
-          </aside>
-            <figure><img src="img/banner-pagseguro.png" alt="pagseguro" title="pagseguro">
-              <figcaption></figcaption>
-            </figure>
-        </aside>
-      </aside>
     </footer>
     <!--fim-footer-->
     <script type="text/javascript" src="js/script.js"></script>
