@@ -24,7 +24,7 @@ body {
 }
 
 .container-header p:hover {
-    color: #615e5e;
+    color: rgb(250, 131, 33);
     margin: 3px 0 0 8px;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .container-header a:hover {
-    color: rgb(157, 8, 187);
+    color: rgb(250, 131, 33);
 }
 
 .container-header i {
@@ -48,7 +48,7 @@ body {
 }
 
 .container-header i:hover {
-    color: rgb(157, 8, 187);
+    color: rgb(250, 131, 33);
     direction: none;
 }
 /*HEADER*/
@@ -72,7 +72,7 @@ header h1 img {
     height: 80px;
     margin: 42px 0 0 0;
     border-radius: 10px;
-    border: 1px solid rgb(255, 104, 4);
+    border: 1px solid rgb(250, 131, 33);
 }
 
 .container-nav {
@@ -126,7 +126,7 @@ header h1 img {
 
 .container-nav a:hover {
     text-decoration: none;
-    color: rgb(157, 8, 187);
+    color: rgb(250, 131, 33);
     direction: none;
 }
 /*FIM*/
@@ -135,7 +135,7 @@ header h1 img {
 #galeria { 
     margin: 1px auto;
     width: 100%;
-    height: 65vh;
+    height: 95vh;
     position: relative;
     overflow: hidden;
     background-color: #000;
@@ -181,48 +181,23 @@ header h1 img {
 .foto:nth-child(5){
     animation-delay: 20s;
 }
-
-
 /*fim animaçõa slide*/
-
-/*fixed */
-.fixed {
-    background-color: #141414a6;
-    position: absolute;
-    margin: -25% 0 0 30%;
-    width: 600px;
-    height: 250px;
-    text-align: center;
-    border: 1px solid #FFF;
-    border-radius: 10px;
-}
-
-.fixed h5 {
-    color: rgb(157, 8, 187);
-    font-size: 40px;
-    position: absolute;
-    margin: 1% 0 0 30%;
-    line-height: 1.3em;
-}
-.fixed p {
-    color: #FFF;
-    font-weight: 900;
-    font-size: 12px;
-    position: absolute;
-    margin: 21% 0 0 0;
-    line-height: 1.5em;
-}
-/*fim fixed*/
 
 /* mian section */
 main {
     background-color: rgb(19, 18, 18);
 }
 strong {
-    color: #0ec518ad;
+    color: rgb(250, 131, 33);
     font-size: 150%;
 }
 
+span {
+    color: rgb(250, 131, 33);
+}
+.btn-outline-dark {
+    color: rgb(250, 131, 33) !important;
+}
 .section-plano {
     background-color: rgb(3, 3, 3);
     text-align: center;
@@ -246,7 +221,7 @@ p {
 
 .section-plano h2 {
     font-weight: 900;
-    color: rgb(214, 109, 11);
+    color: rgb(250, 131, 33);
     line-height: 2.0em;
 }
 
@@ -260,7 +235,7 @@ p {
 
 .section-plano-h2 h2 {
     font-weight: 900;
-    color: rgb(214, 109, 11);
+    color: rgb(250, 131, 33);
     text-align: center;
 }
 
@@ -281,7 +256,7 @@ p {
 }
 
 .container-plano-mlc {
-    background-color: rgba(211, 209, 209, 0.795);
+    background-color: rgba(210, 209, 211, 0.795);
     border-radius: 10px;
     border: 3px solid #000000;
     width: 25%;
@@ -302,7 +277,7 @@ p {
 .container-plano-mlc p {
     border-bottom: 0.4px solid #00000077;
     border-top: 0.4px solid #00000077;
-    background-color: rgba(48, 156, 53, 0.932);
+    background-color: rgb(250, 131, 33);
     color: #FFF;
 }
 
@@ -314,7 +289,7 @@ p {
 /*button container*/
 .btn-plano-mcl {
     margin-top: 10px;
-}
+} 
 
 /*section gympass*/
 .container-section-4 {
@@ -456,8 +431,8 @@ form {
     width: 40vw;
 }
 
-input[type=submit], input[type=reset] {
-    color: rgb(157, 8, 187);
+input[type=submit] {
+    color: rgb(250, 131, 33);
     background-color: #000;
     width: 120px;
     margin-top: 10px;
@@ -467,7 +442,7 @@ input[type=submit], input[type=reset] {
 
 input {
     padding: 5px;
-    border: 0.1px solid rgb(157, 8, 187);
+    border: 0.1px solid rgb(250, 131, 33);
     border-radius: 5px;
     color: #000;
 }
@@ -511,7 +486,7 @@ aside {
 .aside-whats a:hover {
     display: flex;
     justify-content: center;
-    color: #c50e0ea2;
+    color: rgb(250, 131, 33);
     text-decoration: none;
 }
 
@@ -534,10 +509,21 @@ aside {
     background-color: #000;
     border: none;  
 }
+/*redes-sociais*/
+.list-redes-social a {
+    color: rgb(250, 131, 33);
+}
+
+.list-redes-social a:hover {
+    color: rgb(189, 11, 196);
+    text-decoration: none;
+    
+}
 
 .endereco {
     width: 30vw;
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     color: rgb(180, 169, 169);
 }

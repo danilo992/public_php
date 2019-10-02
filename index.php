@@ -17,7 +17,7 @@ session_start();
   <!--container header-->
   <div class="container-header">
       <a href="#menu"><i class="material-icons">home</i><P>Home</P></a>
-      <a href="#1"><i class="material-icons">face</i><P>Redes Social</P></a>
+      <a href="#redes-sociais"><i class="material-icons">face</i><P>Redes Social</P></a>
       <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck"><i class="material-icons">call</i><P>Ligar</P></a>
       <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"><i class="material-icons">room</i><p>Localização</p></a>                      
   </div>
@@ -34,7 +34,7 @@ session_start();
       <!--fim button js-->
       <nav class="container-nav" id="mainMenu">
         <ul>
-            <li><a href="plano.html">Planos</a></li>
+            <li><a href="plano.php">Planos</a></li>
             <li><a href="#1">Modalidade</a></li>
             <li class="visivel-list"><a href="#horario">Horários</a></li> 
             <li><a href="#metodologia">Metodologia de Trabalho</a></li>
@@ -46,19 +46,13 @@ session_start();
     <main>
         <!--CAROUSEL-->
              <section class="imagen-section" id="galeria">
-                    <img class="foto" src="img/09.jpeg">
+                    <img  class="foto" src="img/09.jpeg">
                     <img  class="foto" src="img/logo4.jpeg">               
                     <img  class="foto" src="img/maquina.jpeg">
-                    <img  class="foto" src="img/img7.jpeg"> 
-                    <img  class="foto" src="img/img6.jpeg">                   
+                    <img  class="foto" src=""> 
+                    <img  class="foto" src="">                   
              </section>
               <!--FIM CAROUSEL-->
-              <div class="fixed">
-                <h5>Fitness Point<br> Academia</h5>
-                <p>Você tem três escolhas na vida: desistir, ceder ou dar o
-                   melhor de si. Não existe treino milagroso. Não existe uma dieta mágica. 
-                   O que existe é foco, disciplina, perseverança, e o mais importante é nunca desistir.</p>
-              </div>
               <!--SECTION-ENTRA-PLANO 1 -->
               <section class="section-plano" id="#planos">
                 <h3>
@@ -86,7 +80,7 @@ session_start();
                   </div>
                   <div  class="btn-plano-mcl">
                       <a href="#3">
-                          <button type="button" class="btn btn-success">R$109,00</button>
+                      <button type="button" class="btn btn-outline-dark">R$109,00</button>
                       </a>
                   </div>
                 </div>
@@ -102,7 +96,7 @@ session_start();
                     </div>
                     <div  class="btn-plano-mcl">
                         <a href="#3">
-                            <button type="button" class="btn btn-success">R$89,00</button>
+                        <button type="button" class="btn btn-outline-dark">R$89,00</button>
                         </a>
                     </div>
                   </div>
@@ -118,7 +112,7 @@ session_start();
                       </div>
                       <div  class="btn-plano-mcl">
                           <a href="#3">
-                              <button type="button" class="btn btn-success">R$129,00</button>
+                          <button type="button" class="btn btn-outline-dark">129,00$</button>
                           </a>
                       </div>
                     </div>
@@ -160,7 +154,7 @@ session_start();
                     </div>
                     <div  class="btn-plano-mcl">
                         <a href="#3">
-                            <button type="button" class="btn btn-success">R$327,00</button>
+                          <button type="button" class="btn btn-outline-dark">R$327,00</button>
                         </a>
                     </div>
                   </div>
@@ -177,7 +171,7 @@ session_start();
                       </div>
                       <div  class="btn-plano-mcl">
                           <a href="#3">
-                              <button type="button" class="btn btn-success">R$594,00</button>
+                            <button type="button" class="btn btn-outline-dark">R$594,00</button>
                           </a>
                       </div>
                     </div>
@@ -194,7 +188,7 @@ session_start();
                         </div>
                         <div  class="btn-plano-mcl">
                             <a href="#3">
-                                <button type="button" class="btn btn-success">R$936,00</button>
+                              <button type="button" class="btn btn-outline-dark">R$936,00</button>
                             </a>
                         </div>
                       </div>
@@ -219,7 +213,7 @@ session_start();
                     </div>
                     <div  class="btn-plano-mcl-1">
                         <a href="#3">
-                            <button type="button" class="btn btn-success">R$69,00</button>
+                          <button type="button" class="btn btn-outline-dark">R$69,00</button>
                         </a>
                     </div>
                   </div>
@@ -230,12 +224,12 @@ session_start();
                       <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
-                          <li><strong>&#x02713;</strong>Treino Independente<strong>&#8902</strong></li>                         
+                          <li><strong>&#x02713;</strong>Treino Independente<strong>&#8902;</strong></li>                         
                         </ul>
                       </div>
                       <div  class="btn-plano-mcl-1">
                           <a href="#3">
-                              <button type="button" class="btn btn-success">R$69,00</button>
+                            <button type="button" class="btn btn-outline-dark">R$69,00</button>
                           </a>
                       </div>
                     </div>
@@ -252,7 +246,7 @@ session_start();
                         </div>
                         <div  class="btn-plano-mcl-1">
                             <a href="#3">
-                                <button type="button" class="btn btn-success">R$189,00</button>
+                              <button type="button" class="btn btn-outline-dark">R$189,00</button>
                             </a>
                         </div>
                       </div>
@@ -292,7 +286,7 @@ session_start();
                       <h3>
                         <strong>&#8902;</strong>  Gympass  <strong>&#8902;</strong> 
                       </h3>
-                      <a href="https://news.gympass.com/" target="_blank">
+                      <a href="https://www.gympass.com/negocios/fitness-point-academia-358d9123-ad0b-4161-8295-cfa7e0a96b10" target="_blank">
                         <button type="button" class="btn btn-danger">Clique aqui</button>
                       </a>
                     </div>
@@ -355,39 +349,38 @@ session_start();
     <!--footer-->
     <footer>
       <!--aside 1-->
-      <aside class="list-redes-social">
-       <a href="#"> <figure><img src="img/facebook_2.png">
+      <aside class="list-redes-social" id="redes-sociais" >
+       <a href="https://www.facebook.com/fitnesspointacademia/" target="_banck"> <figure><img src="img/facebook_2.png">
           <figcaption>Facebook</figcaption>
         </figure></a>
-       <a href="#"> <figure><img src="img/instagram.png">
+       <a href="https://www.instagram.com/fitnesspointacademia/?hl=pt-br" target="_banck"> <figure><img src="img/instagram.png">
           <figcaption>Instagram</figcaption>
         </figure></a>
-       <a href="#"> <figure><img src="img/home.png">
+       <a href="index.php" target="_banck"> <figure><img src="img/home.png">
           <figcaption>Menu pricinpal</figcaption>
         </figure></a>
-       <a href="#"> <figure><img src="img/pin_2.png">
+       <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"> <figure><img src="img/pin_2.png">
           <figcaption>Localização</figcaption>
         </figure></a>
-       <a href="#"> <figure><img src="img/globe.png">
-          <figcaption>Goolge</figcaption>
-        </figure> </a>
       </aside>
 
       <!--aside 2-->
       <aside class="endereco">
-        <p><strong>&#8902;</strong> Professores:<br> Calos Vasques (Totonho)</p>
-        <p><strong>&#8902;</strong> Professores:<br> Vinícius Fernandes (Vini)</p>
+        <p><strong>&#8902;</strong> Professores <span> : </span> Calos Vasques (Totonho)</p>
+        <p><strong>&#8902;</strong> Professores <span> : </span> Vinícius Fernandes (Vini)</p>
           <address>
-            <strong>&#8902;</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
-          </address>
+           
       <p>Siga-nos nas redes sociais</p>
       <strong>Informativo</strong>
       <p><strong>&#8902;</strong>Cadatre-se para receber novidades e promoções em seu email</p>
+
+      <strong>&#8902;</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
+          </address>
     </aside>
 
       <!--aside 3-->
       <aside class="aside-whats">
-        <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck">
+        <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informações%20sobre%20Fitness%20Point" target="_banck">
           <figure><img src="img/icons8-cor-50.png" alt="whatsapp" title="whatsapp">
             <figcaption><h5>Entre em contato via whatsapp<br> para obter mais informações.</h5></figcaption>
           </figure>
@@ -395,16 +388,11 @@ session_start();
         <aside class="pagseguro">
           <aside>
             <p><strong>Forma de pagamento</strong></p>
-            <p>PagSeguro UOL</p>
             <p>Parcele suas compras em até 12x</p>
             <p>
-              O PagSeguro oferece diversas formas de pagamento. 
+              O nossa academia oferece diversas formas de pagamento. 
               Escolha a melhor formar de pagamento para você!
             </p>
-          </aside>
-            <figure><img src="img/pagseguro-lightbox.png" alt="pagseguro" title="pagseguro">
-              <figcaption></figcaption>
-            </figure>
         </aside>
       </aside>
     </footer>
