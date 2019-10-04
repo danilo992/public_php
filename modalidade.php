@@ -23,20 +23,20 @@
         </h3>
 
     <h4> Como funciona?</h4>
-        <p>
-            - Eacolha a modalidade que deseja realizar;
-            - Verifique o horário disponível para formar a sua turma;
-            - A turma deve conter, no máximo, 6 alunos.
-            - Efetue o pagamento da mensalidade da turma na
-             secretaria da Fitness Point;
-        </p>
+        <ul>
+            <li>Eacolha a modalidade que deseja realizar;</li>
+            <li>Verifique o horário disponível para formar a sua turma;</li>
+            <li>A turma deve conter, no máximo, 6 alunos e minimo 3.</li>
+            <li>Efetue o pagamento da mensalidade da turma na</li>
+            <li>secretaria da Fitness Point;</li>
+        </ul>
    <h4> Orientações:</h4>
        <p>
             Os (As) alunos (as) da turma precisam preencher um questionário de aptidão física antes de iniciar as atividades. 
             As aulas serão montadas de acordo com os objetivos dos alunos (as) após a entrega do questionário de aptidão física.
         </p>
+    <h4> Treinamento Funcional </h4>    
         <p>
-            <strong> Treinamento Funcional </strong>
             Uma aula de 45 minutos que reúne exercícios isométricos, movimentos da musculação e pilates solo.
         </p>
 
@@ -47,6 +47,10 @@
             melhoria da postura e reduzindo as dores no corpo.
         </p>
     </div>
-</section>    
+</section>
+
+<footer>
+    <h5>Fitnesspointacademia.com.br</h5>
+</footer>
 </body>
 </html>

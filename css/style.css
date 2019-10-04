@@ -188,7 +188,7 @@ main {
     background-color: rgb(19, 18, 18);
 }
 strong {
-    color: rgb(250, 131, 33);
+    color: rgb(189, 11, 196);
     font-size: 150%;
 }
 
@@ -196,8 +196,7 @@ span {
     color: rgb(250, 131, 33);
 }
 .btn-outline-dark {
-    background-color: rgb(250, 131, 33) !important;
-    color: #FFF !important;
+    color: #000 !important;
 }
 .section-plano {
     background-color: rgb(3, 3, 3);
@@ -512,11 +511,11 @@ aside {
 }
 /*redes-sociais*/
 .list-redes-social a {
-    color: rgb(250, 131, 33);
+    color: rgb(189, 11, 196);
 }
 
 .list-redes-social a:hover {
-    color: rgb(189, 11, 196);
+    color: rgb(214, 109, 11);
     text-decoration: none;
     
 }

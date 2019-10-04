@@ -32,11 +32,11 @@ session_start();
       <!--fim button js-->
       <nav class="container-nav" id="mainMenu">
         <ul>
-            <li><a href="plano.php">Planos</a></li>
-            <li><a href="modalidade.php">Modalidade</a></li>
-            <li class="visivel-list"><a href="#horario">Horários</a></li> 
-            <li><a href="#metodologia">Metodologia de Trabalho</a></li>
-            <li><a href="#metodologia">Avaliação Física</a></li>
+            <li><a href="plano.php" target="_banck">Planos</a></li>
+            <li><a href="modalidade.php" target="_banck">Modalidade</a></li>
+            <li class="visivel-list" target="_banck"><a href="#horario">Horários</a></li> 
+            <li><a href="#metodologia" target="_banck">Metodologia de Trabalho</a></li>
+            <li><a href="#" target="_banck">Avaliação Física</a></li>
         </ul>
       </nav>
     </header>
