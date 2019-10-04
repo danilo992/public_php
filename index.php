@@ -36,7 +36,7 @@ session_start();
             <li><a href="modalidade.php" target="_banck">Modalidade</a></li>
             <li class="visivel-list" target="_banck"><a href="#horario">Horários</a></li> 
             <li><a href="#metodologia" target="_banck">Metodologia de Trabalho</a></li>
-            <li><a href="#" target="_banck">Avaliação Física</a></li>
+            <li><a href="avaliacaoFisica.php" target="_banck">Avaliação Física</a></li>
         </ul>
       </nav>
     </header>
@@ -296,7 +296,20 @@ session_start();
                 </section>
                 <!--FIM-->  
                 <!--container metodologia-->
-                <section class="container-metodogia" id="metodologia">
+                <section class="metodologia" id="metodologia">
+               
+                    <h3>Metodologia Fitness Point</h3>
+                      <p>
+                        Nosso trabalho é realizado exclusivamente com a  Musculação, 
+                        através dos métodos de treinamento mais eficientes. Atendemos 
+                        com fichas de exercícios individualizadas e projetadas de acordo 
+                        com os objetivos do aluno. Seguimos um roteiro (planejamento) com 
+                        estratégias que priorizam a técnica de execução, controle do tempo de intervalo,
+                        amplitude de movimentos e cadência dos movimentos. Os exercícios são escolhidos de acordo com o nível de aptidão física, tempo de treinamento (permanecia na academia),  frequência semanal  e histórico de lesões.
+                      </p>
+                  
+                </section>
+                <section class="container-metodogia">
                   <article>
                     <h3>Visão</h3>
                     <p>
@@ -349,24 +362,24 @@ session_start();
     <footer>
       <!--aside 1-->
       <aside class="list-redes-social" id="redes-sociais" >
-       <a href="https://www.facebook.com/fitnesspointacademia/" target="_banck"> <figure><img src="img/facebook_2.png">
-          <figcaption>Facebook</figcaption>
-        </figure></a>
-       <a href="https://www.instagram.com/fitnesspointacademia/?hl=pt-br" target="_banck"> <figure><img src="img/instagram.png">
-          <figcaption>Instagram</figcaption>
-        </figure></a>
-       <a href="index.php" target="_banck"> <figure><img src="img/home.png">
-          <figcaption>Menu pricinpal</figcaption>
-        </figure></a>
-       <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"> <figure><img src="img/pin_2.png">
-          <figcaption>Localização</figcaption>
-        </figure></a>
+        <a href="https://www.facebook.com/fitnesspointacademia/" target="_banck"> 
+          <figure><img src="img/facebook_2.png"></figure>
+        </a>
+        <a href="https://www.instagram.com/fitnesspointacademia/?hl=pt-br" target="_banck">
+          <figure><img src="img/instagram.png"></figure>
+        </a>
+        <a href="index.php" target="_banck"> 
+          <figure><img src="img/home.png"></figure>
+        </a>
+        <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"> 
+          <figure><img src="img/pin_2.png"></figure>
+        </a>
       </aside>
 
       <!--aside 2-->
       <aside class="endereco">
-        <p><strong>&#8902;</strong> Professores <span> : </span> Calos Vasques (Totonho)</p>
-        <p><strong>&#8902;</strong> Professores <span> : </span> Vinícius Fernandes (Vini)</p>
+        <p><strong>&#8902;</strong> Professores : Calos Vasques (Totonho)</p>
+        <p><strong>&#8902;</strong> Professores : Vinícius Fernandes (Vini)</p>
           <address>
            
       <p>Siga-nos nas redes sociais</p>
@@ -392,6 +405,9 @@ session_start();
               O nossa academia oferece diversas formas de pagamento. 
               Escolha a melhor formar de pagamento para você!
             </p>
+            <figure class="img-cartoes">
+              <img src="img/cartoes.png">
+            </figure>
         </aside>
       </aside>
     </footer>

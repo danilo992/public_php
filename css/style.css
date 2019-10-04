@@ -12,8 +12,8 @@ body {
 /*CONTAINER HEADER*/
 .container-header {
     display: flex;
-    background-color: #000;
-    width: 98.5%;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
     position: fixed;
     z-index: 0;
 }
@@ -387,6 +387,16 @@ p {
 /*fim section horas e ginastica*/
 
 /*container metodologia*/
+.metodologia  {
+    text-align: center;
+    padding: 15px;
+}
+.metodologia h3 {
+    color: #df0433;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
 .container-metodogia {
     display: flex;
     width: 100vw;
@@ -510,8 +520,12 @@ aside {
     border: none;  
 }
 /*redes-sociais*/
-.list-redes-social a {
-    color: rgb(189, 11, 196);
+.list-redes-social img {
+    border-radius: 10px;
+}
+
+.list-redes-social a figure {
+    margin: 0 0 40px 0;
 }
 
 .list-redes-social a:hover {
@@ -526,6 +540,15 @@ aside {
     justify-content: flex-start;
     flex-direction: column;
     color: rgb(180, 169, 169);
+}
+
+.endereco p {
+    margin-left: -10px;
+}
+
+.img-cartoes img{
+    width: 400px;
+    height: 50px;
 }
 
 /*fim-footer*/
@@ -587,7 +610,7 @@ aside {
         display: flex;
         flex-direction: column;
         width: 50vw;
-        height: 40vh;
+        height: 43vh;
         margin-top: 0px;
         margin-left: 160px;
         z-index: 1;

@@ -36,10 +36,11 @@ section ul {
 }
 
 section ul li {
+    margin-bottom: 10px;
     
 }
 
-section h3 {
+h3 {
     text-align: center;
     line-height: 2.8em;
     font-size: 25px;
