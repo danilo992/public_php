@@ -33,9 +33,10 @@ session_start();
       <nav class="container-nav" id="mainMenu">
         <ul>
             <li><a href="plano.php">Planos</a></li>
-            <li><a href="#1">Modalidade</a></li>
+            <li><a href="modalidade.php">Modalidade</a></li>
             <li class="visivel-list"><a href="#horario">Horários</a></li> 
             <li><a href="#metodologia">Metodologia de Trabalho</a></li>
+            <li><a href="#metodologia">Avaliação Física</a></li>
         </ul>
       </nav>
     </header>

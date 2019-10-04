@@ -196,7 +196,8 @@ span {
     color: rgb(250, 131, 33);
 }
 .btn-outline-dark {
-    color: rgb(250, 131, 33) !important;
+    background-color: rgb(250, 131, 33) !important;
+    color: #FFF !important;
 }
 .section-plano {
     background-color: rgb(3, 3, 3);
