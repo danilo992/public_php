@@ -25,50 +25,45 @@
             <li>Medidas de Circunferência Cardíaca</li>
             <li>Dobras Cutâneas (% de gordura).</li>
         </ul>
-    </section>
-
+	</section>
+	<article>
     <table>
 					<tr>
-						<th>Treinamento Em Grupo</th>
+						<th id="container-table">Treinamento Em Grupo</th>
 					</tr>
 					<tr>
-						<td>Mozzarella</td>
-						<td rowspan="6" class="texto-positivo">Sim</td>
-						<td class="texto-negativo">Não</td>
-						<td class="texto-negativo">Não</td>
-						<td class="texto-negativo">Não</td>
+						<td></td>
+						<td class="texto">2x/semana</td>
+						<td class="texto">3x/semana</td>
+						<td class="texto">4x/semana</td>
+						<td class="texto">5x/semana</td>
 					</tr>
 					<tr>
-						<td>Calabresa</td>
-						<td class="texto-negativo">Não</td>
-						<td class="texto-positivo">Sim</td>
-						<td class="texto-positivo">Sim</td>
+						<td>3-4 Pessoas</td>
+						<td class="texto">R$640,00</td>
+						<td class="texto">R$800,00</td>
+						<td class="texto">R$1.000,00</td>
+						<td class="texto">R$1.200,00</td>
 					</tr>
 					<tr>
-						<td>Pepperoni</td>
-						<td class="texto-negativo">Não</td>
-						<td class="texto-positivo">Sim</td>
-						<td class="texto-positivo">Sim</td>
+						<td>5-6 Pessoas</td>
+						<td class="texto">R$800,00</td>
+						<td class="texto">R$1.000,00</td>
+						<td class="texto">1.200,00</td>
+						<td class="texto">1.400,00</td>
 					</tr>
 					<tr>
-						<td>Marguerita</td>
-						<td class="texto-positivo">Sim</td>
-						<td class="texto-positivo">Sim</td>
-						<td class="texto-positivo">Sim</td>
+						<td>9-10 Pessoas</td>
+						<td class="texto">R$1.000,00</td>
+						<td class="texto">R$1.200,00</td>
+						<td class="texto">R$1.400,00</td>
+						<td class="texto">R$1.600,00</td>
 					</tr>
-					<tr>
-						<td>Portuguesa</td>
-						<td class="texto-positivo">Sim</td>
-						<td class="texto-positivo">Sim</td>
-						<td class="texto-positivo">Sim</td>
-					</tr>
-					<tr>
-						<td>Alho</td>
-						<td class="texto-negativo">Não</td>
-						<td class="texto-negativo">Não</td>
-						<td class="texto-negativo">Não</td>
-					</tr>
+					
 				</table>
-    
+</article>
+<footer>
+	<h5>Fitness Point Academia</h5>
+</footer>
 </body>
 </html>

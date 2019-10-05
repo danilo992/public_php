@@ -12,10 +12,9 @@
 <body>
   <div class="container-header">
       <a href="#menu"><i class="material-icons">home</i><P>Home</P></a>
-      <a href="#1"><i class="material-icons">face</i><P>Redes Sociais</P></a>
+      <a href="#redes-sociais"><i class="material-icons">face</i><P>Redes Social</P></a>
       <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck"><i class="material-icons">call</i><P>Ligar</P></a>
-      <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"><i class="material-icons">room</i><p>Localização</p></a>
-                             
+      <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"><i class="material-icons">room</i><p>Localização</p></a>                      
   </div>
   <!--HEADER-->
     <header id="menu">
@@ -29,10 +28,11 @@
       <!--fim button-->
       <nav class="container-nav" id="mainMenu">
         <ul>
-            <li><a href="#plano">Planos</a></li>
-            <li><a href="#1">Modalidade</a></li>
-            <li class="visivel-list"><a href="#horario">Horários</a></li> 
-            <li><a href="#metodologia">Metodologia de Trabalho</a></li>
+            <li><a href="plano.php" target="_banck">Planos</a></li>
+            <li><a href="modalidade.php" target="_banck">Modalidade</a></li>
+            <li class="visivel-list" target="_banck"><a href="#horario">Horários</a></li> 
+            <li><a href="#metodologia" target="_banck">Metodologia de Trabalho</a></li>
+            <li><a href="avaliacaoFisica.php" target="_banck">Avaliação Física</a></li>
         </ul>
       </nav>
     </header>
@@ -40,18 +40,7 @@
     <!--MAIN-->
     <main>              
           <!--SECTION 2 OUTROS PLANOS-->
-              <section class="section-plano">
-                  <h3>
-                    Nossos planos
-                  </h3>
-                  <p>
-                    Trimestral, Semestral e Anual<br>
-                    Tudo que você precisa, a nossa Academia tem!
-                  </p>
-                  <h2>
-                    Tudo para você
-                  </h2>
-                </section>
+             
                 <section class="container-planos" id="plano">
                   <div class="container-plano-mlc">
                     <h4>Plano</h4>
@@ -171,32 +160,34 @@
     <footer>
       <!--aside 1-->
       <aside class="list-redes-social" id="redes-sociais" >
-       <a href="https://www.facebook.com/fitnesspointacademia/" target="_banck"> <figure><img src="img/facebook_2.png">
-          <figcaption>Facebook</figcaption>
-        </figure></a>
-       <a href="https://www.instagram.com/fitnesspointacademia/?hl=pt-br" target="_banck"> <figure><img src="img/instagram.png">
-          <figcaption>Instagram</figcaption>
-        </figure></a>
-       <a href="index.php" target="_banck"> <figure><img src="img/home.png">
-          <figcaption>Menu pricinpal</figcaption>
-        </figure></a>
-       <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"> <figure><img src="img/pin_2.png">
-          <figcaption>Localização</figcaption>
-        </figure></a>
+        <a href="https://www.facebook.com/fitnesspointacademia/" target="_banck"> 
+          <figure><img src="img/facebook_2.png"></figure>
+        </a>
+        <a href="https://www.instagram.com/fitnesspointacademia/?hl=pt-br" target="_banck">
+          <figure><img src="img/instagram.png"></figure>
+        </a>
+        <a href="index.php" target="_banck"> 
+          <figure><img src="img/home.png"></figure>
+        </a>
+        <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"> 
+          <figure><img src="img/pin_2.png"></figure>
+        </a>
       </aside>
+
       <!--aside 2-->
       <aside class="endereco">
-        <p><strong>&#8902;</strong> Professores:<br> Calos Vasques (Totonho)</p>
-        <p><strong>&#8902;</strong> Professores:<br> Vinícius Fernandes (Vini)</p>
+        <p><strong>&#8902;</strong> Professores : Calos Vasques (Totonho)</p>
+        <p><strong>&#8902;</strong> Professores : Vinícius Fernandes (Vini)</p>
           <address>
-    
+           
       <p>Siga-nos nas redes sociais</p>
-      
       <strong>Informativo</strong>
       <p><strong>&#8902;</strong>Cadatre-se para receber novidades e promoções em seu email</p>
+
       <strong>&#8902;</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
           </address>
     </aside>
+
       <!--aside 3-->
       <aside class="aside-whats">
         <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informações%20sobre%20Fitness%20Point" target="_banck">
@@ -212,6 +203,9 @@
               O nossa academia oferece diversas formas de pagamento. 
               Escolha a melhor formar de pagamento para você!
             </p>
+            <figure class="img-cartoes">
+              <img src="img/cartoes.png">
+            </figure>
         </aside>
       </aside>
     </footer>

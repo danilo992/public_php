@@ -107,8 +107,12 @@ h5 {
     ul li {
         line-height: 1.4em;
         width: 130%;
-        margin-left: -19px;
+        margin-left: -43px;
         margin-bottom: 9px;
+    }
+
+    footer h5{
+        font-size: 18px;
     }
 
     
