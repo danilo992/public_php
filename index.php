@@ -15,7 +15,7 @@ session_start();
   <!--container header-->
   <div class="container-header">
       <a href="#menu"><i class="material-icons">home</i><P>Home</P></a>
-      <a href="#redes-sociais"><i class="material-icons">face</i><P>Redes Social</P></a>
+      <a href="#redes-sociais"><i class="material-icons">face</i><P>Redes Sociais</P></a>
       <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informaçõe%20sobre%20Fitness%20Point" target="_banck"><i class="material-icons">call</i><P>Ligar</P></a>
       <a href="https://www.google.com/maps/place/Rod.+Virg%C3%ADlio+V%C3%A1rzea,+1974+-+Saco+Grande,+Florian%C3%B3polis+-+SC,+88032-001/@-27.5434434,-48.5024523,17z/data=!3m1!4b1!4m5!3m4!1s0x95274768741beeb7:0xf79d3f0a49760c0b!8m2!3d-27.5434434!4d-48.5002636" target="_banck"><i class="material-icons">room</i><p>Localização</p></a>                      
   </div>
@@ -58,8 +58,8 @@ session_start();
                   Conheça os Planos de Musculação
                 </h3>
                 <p>
-                  Nosso trabalho é deixa você satisfeito!<br>
-                  Venha fazer parte da nossa Academia
+                  Nosso trabalho é deixar você satisfeito,<br>
+                  Venha fazer parte da nossa Academia!
                 </p>
                 <h2>
                   Fitness Point Academia
@@ -254,22 +254,12 @@ session_start();
                <!--fim plano--> 
                 <!--SECTION HORA-->
                 <section class="container-hr-gn">
-                  <section class="container-ginastica">
-                    <h4>Ginástica</h4>
-                      <p>
-                        Não temos aulas de ginástica, Somente musculação (dentro da academia).
-                        Oferecemos a possibilidade de uma ou mais pessoas
-                        formarem grupos para aulas de ginástica: treinamneto
-                        funcional, alongamento e Fast Training.
-                      </p>
-                      <p class="paragrafo">
-                        Venha fazer parte da nossa equipe.
-                        Estamos lhe esperando :)
-                      </p>
-                  </section>
+               
+             
+           </section>
                   <section class="container-horas" id="horario"> 
                       <h4>Horário de Funcionamento</h4>
-                        <p id="fechado"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> domindo <strong class="fechado"> Fechado </strong> </p> 
+                        <p id="fechado"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> domingo e feriado <strong class="fechado"> Fechado </strong> </p> 
                         <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> segunda <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00 </strong> </p> 
                         <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> terça <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
                         <p id="verde"> <strong class="material-icone">  <i class="material-icons">schedule</i> </strong> quarta <strong class="horas"> 07:00 - 14:00 / 17:00 - 22:00  </strong> </p> 
@@ -283,7 +273,7 @@ session_start();
                 <section class="container-section-4">
                    <div class="container-gympass">
                       <h3>
-                        <strong>&#8902;</strong>  Gympass  <strong>&#8902;</strong> 
+                        Gympass
                       </h3>
                       <a href="https://www.gympass.com/negocios/fitness-point-academia-358d9123-ad0b-4161-8295-cfa7e0a96b10" target="_blank">
                         <button type="button" class="btn btn-danger">Clique aqui</button>
@@ -298,18 +288,19 @@ session_start();
                 <!--container metodologia-->
                 <section class="metodologia" id="metodologia">
                
-                    <h3>Metodologia Fitness Point</h3>
-                      <p>
-                        Nosso trabalho é realizado exclusivamente com a  Musculação, 
-                        através dos métodos de treinamento mais eficientes. Atendemos 
-                        com fichas de exercícios individualizadas e projetadas de acordo 
-                        com os objetivos do aluno. Seguimos um roteiro (planejamento) com 
-                        estratégias que priorizam a técnica de execução, controle do tempo de intervalo,
-                        amplitude de movimentos e cadência dos movimentos. Os exercícios são escolhidos de acordo com o nível de aptidão física, tempo de treinamento (permanecia na academia),  frequência semanal  e histórico de lesões.
-                      </p>
-                  
-                </section>
+               <h3>Metodologia Fitness Point</h3>
+                 <p>
+                   Nosso trabalho é realizado exclusivamente com a  Musculação, 
+                   através dos métodos de treinamento mais eficientes. Atendemos 
+                   com fichas de exercícios individualizadas e projetadas de acordo 
+                   com os objetivos do aluno. Seguimos um roteiro (planejamento) com 
+                   estratégias que priorizam a técnica de execução, controle do tempo de intervalo,
+                   amplitude de movimentos e cadência dos movimentos. Os exercícios são escolhidos de acordo com o nível de aptidão física, tempo de treinamento (permanecia na academia),  frequência semanal  e histórico de lesões.
+                 </p>
+                 </section>
+                
                 <section class="container-metodogia">
+                
                   <article>
                     <h3>Visão</h3>
                     <p>
@@ -340,7 +331,7 @@ session_start();
 
                 <!--formulario index-php-->
                 <section class="container-formulario">
-                  <h5>Cadastre-se suas informações e receba novidades e promoções</h5>
+                  <h5>Cadastre-se e receba novidades e promoções</h5>
                   <?php
                     if(isset($_SESSION['msg'])) {
                       echo $_SESSION['msg'];
@@ -348,10 +339,10 @@ session_start();
                     }
                   ?>
                     <form method="POST" action="processa.php">
-                      <label>Nome Completo:</label>
-                          <input type="text" name="nome" placeholder="Nome Completo" maxlength="80" required>
+                      <label>Nome:</label>
+                          <input type="text" name="nome" placeholder="" maxlength="80" required>
                       <label>E-mail:</label>
-                          <input type="email" name="email" placeholder="E-mail" required>
+                          <input type="email" name="email" placeholder="Seu melhor E-mail" required>
                         <input type="submit" value="enviar">
                     </form>
                 </section>
@@ -393,14 +384,14 @@ session_start();
       <!--aside 3-->
       <aside class="aside-whats">
         <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informações%20sobre%20Fitness%20Point" target="_banck">
-          <figure><img src="img/icons8-cor-50.png" alt="whatsapp" title="whatsapp">
+          <figure><img src="https://img.icons8.com/windows/32/000000/whatsapp.png">
             <figcaption><h5>Entre em contato via whatsapp<br> para obter mais informações.</h5></figcaption>
           </figure>
         </a>
         <aside class="pagseguro">
           <aside>
             <p><strong>Forma de pagamento</strong></p>
-            <p>Parcele suas compras em até 12x</p>
+            
             <p>
               O nossa academia oferece diversas formas de pagamento. 
               Escolha a melhor formar de pagamento para você!

@@ -55,6 +55,35 @@
         </p>
     </div>
 </section>
+<article>
+    <table>
+					<tr>
+						<th id="container-table">Treinamento Em Grupo</th>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="texto">2x/semana</td>
+						<td class="texto">3x/semana</td>
+						<td class="texto">4x/semana</td>
+						<td class="texto">5x/semana</td>
+					</tr>
+					<tr>
+						<td>3-4 Pessoas</td>
+						<td class="texto">R$640,00</td>
+						<td class="texto">R$800,00</td>
+						<td class="texto">R$1.000,00</td>
+						<td class="texto">R$1.200,00</td>
+					</tr>
+					<tr>
+						<td>5-6 Pessoas</td>
+						<td class="texto">R$800,00</td>
+						<td class="texto">R$1.000,00</td>
+						<td class="texto">1.200,00</td>
+						<td class="texto">1.400,00</td>
+					</tr>
+					
+				</table>
+</article>
 
 <footer>
     <h5>Fitnesspointacademia.com.br</h5>

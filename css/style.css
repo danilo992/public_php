@@ -272,6 +272,7 @@ p {
     color: rgb(10, 10, 9);
     font-weight: 900;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .container-plano-mlc p {
@@ -279,17 +280,21 @@ p {
     border-top: 0.4px solid #00000077;
     background-color: rgb(250, 131, 33);
     color: #FFF;
+   
 }
 
 .list-plano-mlc ul {
     list-style-type: none;
     margin: 0 0 0 -50px;
 }
-
+.list-plano-mlc ul li{
+   font-size: 1.3vw;
+}
 /*button container*/
 .btn-plano-mcl {
     margin-top: 10px;
 } 
+
 
 /*section gympass*/
 .container-section-4 {
@@ -348,6 +353,7 @@ p {
 .container-horas, h4 {
     margin-bottom: 50px;
     color: #FFF;
+    width: 50%;
 }
 
 .container-horas strong {
@@ -364,9 +370,10 @@ p {
     color: hsl(0, 83%, 60%);
 }
 
-.horas {
-    text-align: start;
-    margin-left: 30px;
+.horas, .fechado {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
 }
 
 #fechado strong {
@@ -390,6 +397,7 @@ p {
 .metodologia  {
     text-align: center;
     padding: 15px;
+    width: 80vw;
 }
 .metodologia h3 {
     color: #df0433;
@@ -398,9 +406,9 @@ p {
     margin-top: 20px;
 }
 .container-metodogia {
+    text-align: center;
     display: flex;
     width: 100vw;
-    margin-top: 40px;
     padding: 70px;
 }
 
@@ -462,7 +470,7 @@ input {
 footer {
     display: flex !important;
     background-color: #000;
-    height: 88vh;
+    height: 70vh;
     width: 99.9%;
     padding-top: 50px;
     border-top: 1px solid rgba(209, 191, 191, 0.171);
@@ -489,14 +497,14 @@ aside {
 .aside-whats a {
     display: flex;
     justify-content: center;
-    color: #0ec518ad;
+    color: rgb(189, 11, 196);
     text-decoration: none;
 }
 
 .aside-whats a:hover {
     display: flex;
     justify-content: center;
-    color: rgb(250, 131, 33);
+    color: #0ec518ad;
     text-decoration: none;
 }
 
@@ -551,6 +559,11 @@ aside {
     height: 50px;
 }
 
+.autor {
+    font-size: 7.7px;
+    padding: 0 20px 20px 20px;
+}
+
 /*fim-footer*/
 /*---- @media screen --------------------------*/
 @media screen and (min-width: 320px) and (max-width:640px){
@@ -559,7 +572,7 @@ aside {
         padding: 0;
     }
 /*menu javascript*/
-    #mainMenu, .pagseguro p, .fixed, .container-metodogia, .container-ginastica{
+    #mainMenu, .pagseguro p, .fixed, .container-metodogia, .container-ginastica, .container-header p {
         display: none;
     }
     
@@ -570,10 +583,6 @@ aside {
 
     .container-header {
         border-bottom: 1px solid rgba(240, 113, 9, 0.137);
-    }
-
-    .container-header p{
-        font-size: 10px;
     }
 
     header {
@@ -615,6 +624,10 @@ aside {
         margin-left: 160px;
         z-index: 1;
     }
+
+    .list-plano-mlc ul li{
+        font-size: 4.2vw;
+     }
 
     #galeria, .imagen-section img {
         width: 100%;
@@ -675,6 +688,10 @@ aside {
         font-size: 10px;
     }
 
+    .metodologia {
+        display: none;
+    }
+
    
     /*formulario index-php*/
     .container-formulario {
@@ -711,7 +728,7 @@ aside {
         display: flex;
         flex-direction: column;
         background-color: #000;
-        height: 150vh;
+        height: 130vh;
         width: 100vw;
     }
 
@@ -788,14 +805,14 @@ aside {
 
 } 
 /*---------  media screen  -----------*/
-@media screen and (min-width: 375px) and (max-width:700px) {
+@media screen and (min-width: 630px) and (max-width:700px) {
     body {
         margin: 0;
         padding: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    #mainMenu, .pagseguro p, .fixed, .container-metodogia, .container-ginastica{
+    #mainMenu, .pagseguro p, .fixed, .container-metodogia, .container-ginastica, .metodologia {
         display: none;
     }
 
@@ -896,6 +913,7 @@ aside {
         margin: 50px 0 10px 0;
 
     }
+
     /*formulario index-php*/
     .container-formulario {
         width: 100vw ;
@@ -1006,10 +1024,7 @@ aside {
         height: 100px;
         margin-left: 60px;
     }
-
 }
-
-
 
 @media screen and (min-width: 700px) and (max-width:800px) {
     #mainMenu, .fixed {

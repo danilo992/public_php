@@ -9,6 +9,9 @@
 </head>
 <body>
     <header>
+    <a href="index.php" target="_banck"> 
+          <figure><img src="img/home.png"></figure>
+        </a>
         <h2>Avaliação Física</h2>
     </header>
 
@@ -26,42 +29,19 @@
             <li>Dobras Cutâneas (% de gordura).</li>
         </ul>
 	</section>
-	<article>
-    <table>
-					<tr>
-						<th id="container-table">Treinamento Em Grupo</th>
-					</tr>
-					<tr>
-						<td></td>
-						<td class="texto">2x/semana</td>
-						<td class="texto">3x/semana</td>
-						<td class="texto">4x/semana</td>
-						<td class="texto">5x/semana</td>
-					</tr>
-					<tr>
-						<td>3-4 Pessoas</td>
-						<td class="texto">R$640,00</td>
-						<td class="texto">R$800,00</td>
-						<td class="texto">R$1.000,00</td>
-						<td class="texto">R$1.200,00</td>
-					</tr>
-					<tr>
-						<td>5-6 Pessoas</td>
-						<td class="texto">R$800,00</td>
-						<td class="texto">R$1.000,00</td>
-						<td class="texto">1.200,00</td>
-						<td class="texto">1.400,00</td>
-					</tr>
-					<tr>
-						<td>9-10 Pessoas</td>
-						<td class="texto">R$1.000,00</td>
-						<td class="texto">R$1.200,00</td>
-						<td class="texto">R$1.400,00</td>
-						<td class="texto">R$1.600,00</td>
-					</tr>
-					
-				</table>
-</article>
+   
+    
+    <section>
+    <h3>Gráfico Avaliação Física</h3>
+        <div  class="img-grafico">
+            
+            <img src="img/avaliacao1.jpeg">
+            <img src="img/avaliaca3.jpeg">
+            <img src="img/avaliaca4.jpeg"> 
+            <img src="img/avaliacao2.jpeg">  
+        </div>
+    </section>
+	
 <footer>
 	<h5>Fitness Point Academia</h5>
 </footer>

@@ -62,12 +62,31 @@ p {
     margin-bottom: 30px;
 }
 
+table, tr, th, td {
+    border: 1px solid rgb(250, 131, 33);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(250, 131, 33);
+    font-size: 20px;
+}
+
+th, tr, td {
+    width: 300px;
+    
+}
+
+table {
+    background-color: rgb(33, 12, 46);
+}
+
+
 footer {
     background-color: rgb(51, 41, 50);
     height: 70px;
     text-align: center;
     font-size: 50px;
     color: rgb(156, 34, 160);
+    margin-top: 30px;
 }
 
 h5 {
@@ -114,6 +133,13 @@ h5 {
     footer h5{
         font-size: 18px;
     }
+
+
+    table, tr, th, td {
+        font-size: 10px;
+        padding: 5px;
+    }
+
 
     
     

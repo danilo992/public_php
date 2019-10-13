@@ -29,9 +29,7 @@
       <nav class="container-nav" id="mainMenu">
         <ul>
             <li><a href="plano.php" target="_banck">Planos</a></li>
-            <li><a href="modalidade.php" target="_banck">Modalidade</a></li>
-            <li class="visivel-list" target="_banck"><a href="#horario">Horários</a></li> 
-            <li><a href="#metodologia" target="_banck">Metodologia de Trabalho</a></li>
+            <li><a href="modalidade.php" target="_banck">Modalidade</a></li> 
             <li><a href="avaliacaoFisica.php" target="_banck">Avaliação Física</a></li>
         </ul>
       </nav>
@@ -198,7 +196,7 @@
         <aside class="pagseguro">
           <aside>
             <p><strong>Forma de pagamento</strong></p>
-            <p>Parcele suas compras em até 12x</p>
+        
             <p>
               O nossa academia oferece diversas formas de pagamento. 
               Escolha a melhor formar de pagamento para você!
