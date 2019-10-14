@@ -43,7 +43,7 @@
                   <div class="container-plano-mlc">
                     <h4>Plano</h4>
                     <h4>Trimestral</h4>
-                    <p>Fitness Point</p>
+                    <p><strong>Fitness Point</strong></p>
                     <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -60,7 +60,7 @@
                   <div class="container-plano-mlc">
                       <h4>Plano</h4>
                       <h4>Semestral</h4>
-                      <p>Fitness Point</p>
+                      <p><strong>Fitness Point</strong></p>
                       <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -77,7 +77,7 @@
                     <div class="container-plano-mlc">
                         <h4>Plano</h4>
                         <h4>Anual</h4>
-                        <p>Fitness Point</p>
+                        <p><strong>Fitness Point</strong></p>
                         <div class="list-plano-mlc">
                           <ul>
                             <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -103,7 +103,7 @@
                   <div class="container-plano-mlc">
                     <h4>Plano</h4>
                     <h4>Treino Rápido</h4>
-                    <p>Fitness Point</p>
+                    <p><strong>Fitness Point</strong></p>
                     <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Todos os dias</li>
@@ -120,7 +120,7 @@
                   <div class="container-plano-mlc">
                       <h4>Plano</h4>
                       <h4>Smart</h4>
-                      <p>Fitness Point</p>
+                      <p><strong>Fitness Point</strong></p>
                       <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -136,7 +136,7 @@
                     <div class="container-plano-mlc">
                         <h4>Plano</h4>
                         <h4>Resultado Garantido</h4>
-                        <p>Fitness Point</p>
+                        <p><strong>Fitness Point</strong></p>
                         <div class="list-plano-mlc">
                           <ul>
                             <li><strong>&#x02713;</strong>Inclui Avaliação Física</li>
@@ -189,7 +189,7 @@
       <!--aside 3-->
       <aside class="aside-whats">
         <a href="https://wa.me/5548988332008?text=Olá,%20tudo%20bem?%20gostaria%20de%20mais%20informações%20sobre%20Fitness%20Point" target="_banck">
-          <figure><img src="img/icons8-cor-50.png" alt="whatsapp" title="whatsapp">
+          <figure><img src="https://img.icons8.com/windows/32/000000/whatsapp.png">
             <figcaption><h5>Entre em contato via whatsapp<br> para obter mais informações.</h5></figcaption>
           </figure>
         </a>

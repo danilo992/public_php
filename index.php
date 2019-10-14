@@ -34,7 +34,7 @@ session_start();
         <ul>
             <li><a href="plano.php" target="_banck">Planos</a></li>
             <li><a href="modalidade.php" target="_banck">Modalidade</a></li>
-            <li class="visivel-list" target="_banck"><a href="#horario">Horários</a></li> 
+            <li class="visivel-list"><a href="#horario">Horários</a></li> 
             <li><a href="#metodologia" target="_banck">Metodologia de Trabalho</a></li>
             <li><a href="avaliacaoFisica.php" target="_banck">Avaliação Física</a></li>
         </ul>
@@ -48,8 +48,8 @@ session_start();
                     <img  class="foto" src="img/09.jpeg">
                     <img  class="foto" src="img/logo4.jpeg">               
                     <img  class="foto" src="img/maquina.jpeg">
-                    <img  class="foto" src=""> 
-                    <img  class="foto" src="">                   
+                    <img  class="foto" src="img/logo4.jpeg">     
+                    <img  class="foto" src="img/09.jpeg">             
              </section>
               <!--FIM CAROUSEL-->
               <!--SECTION-ENTRA-PLANO 1 -->
@@ -70,7 +70,7 @@ session_start();
                 <div class="container-plano-mlc plano-mlc">
                   <h4>Plano</h4>
                   <h4>3x/semana</h4>
-                  <p>Musculação</p>
+                  <p><strong>Musculação</strong></p>
                   <div class="list-plano-mlc">
                       <ul>
                         <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -86,7 +86,7 @@ session_start();
                 <div class="container-plano-mlc">
                     <h4>Plano</h4>
                     <h4>Horário Econômico</h4>
-                    <p>Musculação</p>
+                    <p><strong>Musculação</strong></p>
                     <div class="list-plano-mlc">
                       <ul>
                         <li><strong>&#x02713;</strong>Das 11:30 - 14:00</li>
@@ -102,7 +102,7 @@ session_start();
                   <div class="container-plano-mlc">
                       <h4>Plano</h4>
                       <h4>Mensal</h4>
-                      <p>Musculação</p>
+                      <p><strong>Musculação</strong></p>
                       <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -143,7 +143,7 @@ session_start();
                   <div class="container-plano-mlc">
                     <h4>Plano</h4>
                     <h4>Trimestral</h4>
-                    <p>Fitness Point</p>
+                    <p><strong>Parcelado em até 2X</strong></p>
                     <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -160,7 +160,7 @@ session_start();
                   <div class="container-plano-mlc">
                       <h4>Plano</h4>
                       <h4>Semestral</h4>
-                      <p>Fitness Point</p>
+                      <p><strong>Parcelado em até 3X</strong></p>
                       <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -177,7 +177,7 @@ session_start();
                     <div class="container-plano-mlc">
                         <h4>Plano</h4>
                         <h4>Anual</h4>
-                        <p>Fitness Point</p>
+                        <p><strong>Fitness Point</strong></p>
                         <div class="list-plano-mlc">
                           <ul>
                             <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -202,7 +202,7 @@ session_start();
                   <div class="container-plano-mlc">
                     <h4>Plano</h4>
                     <h4>Treino Rápido</h4>
-                    <p>Fitness Point</p>
+                    <p><strong>Fitness Point</strong></p>
                     <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Todos os dias</li>
@@ -219,7 +219,7 @@ session_start();
                   <div class="container-plano-mlc">
                       <h4>Plano</h4>
                       <h4>Smart</h4>
-                      <p>Fitness Point</p>
+                      <p><strong>Fitness Point</strong></p>
                       <div class="list-plano-mlc">
                         <ul>
                           <li><strong>&#x02713;</strong>Horário Livre</li>
@@ -235,7 +235,7 @@ session_start();
                     <div class="container-plano-mlc">
                         <h4>Plano</h4>
                         <h4>Resultado Garantido</h4>
-                        <p>Fitness Point</p>
+                        <p><strong>Fitness Point</strong></p>
                         <div class="list-plano-mlc">
                           <ul>
                             <li><strong>&#x02713;</strong>Inclui Avaliação Física</li>
@@ -394,10 +394,12 @@ session_start();
             
             <p>
               O nossa academia oferece diversas formas de pagamento. 
-              Escolha a melhor formar de pagamento para você!
+              Escolha a melhor formar de pagamento para você!        
             </p>
+            
             <figure class="img-cartoes">
               <img src="img/cartoes.png">
+              
             </figure>
         </aside>
       </aside>
