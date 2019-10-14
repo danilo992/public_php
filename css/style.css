@@ -189,7 +189,7 @@ main {
 }
 strong {
     color: rgb(189, 11, 196);
-    font-size: 150%;
+    font-size: 110%;
 }
 
 span {
@@ -249,12 +249,6 @@ p {
     justify-content: center;
 }
 
-.container-planos {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
 .container-plano-mlc {
     background-color: rgba(210, 209, 211, 0.795);
     border-radius: 10px;
@@ -272,7 +266,7 @@ p {
     color: rgb(10, 10, 9);
     font-weight: 900;
     text-transform: uppercase;
-    text-align: center;
+    font-size: 1.7vw;
 }
 
 .container-plano-mlc p {
@@ -285,7 +279,7 @@ p {
 
 .list-plano-mlc ul {
     list-style-type: none;
-    margin: 0 0 0 -50px;
+
 }
 .list-plano-mlc ul li{
    font-size: 1.3vw;

@@ -369,15 +369,15 @@ session_start();
 
       <!--aside 2-->
       <aside class="endereco">
-        <p><strong>&#8902;</strong> Professores : Calos Vasques (Totonho)</p>
-        <p><strong>&#8902;</strong> Professores : Vinícius Fernandes (Vini)</p>
+        <p><strong>*</strong> Professores : Calos Vasques (Totonho)</p>
+        <p><strong>*</strong> Professores : Vinícius Fernandes (Vini)</p>
           <address>
            
       <p>Siga-nos nas redes sociais</p>
       <strong>Informativo</strong>
-      <p><strong>&#8902;</strong>Cadatre-se para receber novidades e promoções em seu email</p>
+      <p><strong>*</strong>Cadatre-se para receber novidades e promoções em seu email</p>
 
-      <strong>&#8902;</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
+      <strong>*</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
           </address>
     </aside>
 
