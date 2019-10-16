@@ -270,11 +270,12 @@ session_start();
                 </section>  
                 <!--FIM HORAS-->
                 <!--section 4-->
-                <section class="container-section-4">
-                   <div class="container-gympass">
+                <section class="section-gympass">
+                   <div class="container-gympass">                       
                       <h3>
                         Gympass
                       </h3>
+                    
                       <a href="https://www.gympass.com/negocios/fitness-point-academia-358d9123-ad0b-4161-8295-cfa7e0a96b10" target="_blank">
                         <button type="button" class="btn btn-danger">Clique aqui</button>
                       </a>
@@ -369,15 +370,15 @@ session_start();
 
       <!--aside 2-->
       <aside class="endereco">
-        <p><strong>*</strong> Professores : Calos Vasques (Totonho)</p>
-        <p><strong>*</strong> Professores : Vinícius Fernandes (Vini)</p>
+        <p><img src="img/estrela.png"> Professores : Calos Vasques (Totonho)</p>
+        <p><img src="img/estrela.png"> Professores : Vinícius Fernandes (Vini)</p>
           <address>
            
       <p>Siga-nos nas redes sociais</p>
       <strong>Informativo</strong>
-      <p><strong>*</strong>Cadatre-se para receber novidades e promoções em seu email</p>
+      <p><img src="img/estrela.png"> Cadatre-se para receber novidades e promoções em seu email</p>
 
-      <strong>*</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
+      <img src="img/estrela.png"> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
           </address>
     </aside>
 
@@ -388,20 +389,16 @@ session_start();
             <figcaption><h5>Entre em contato via whatsapp<br> para obter mais informações.</h5></figcaption>
           </figure>
         </a>
-        <aside class="pagseguro">
-          <aside>
             <p><strong>Forma de pagamento</strong></p>
-            
             <p>
-              O nossa academia oferece diversas formas de pagamento. 
               Escolha a melhor formar de pagamento para você!        
             </p>
-            
-            <figure class="img-cartoes">
-              <img src="img/cartoes.png">
-              
-            </figure>
-        </aside>
+            <div class="img-cartoes">
+              <figure>
+                <img src="img/cartoes.png">
+              </figure>
+            </div>
+       
       </aside>
     </footer>
     <!--fim-footer-->

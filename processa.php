@@ -12,7 +12,7 @@ $result_usuario = "INSERT INTO usuarios (nome, email, created) VALUES ('$nome', 
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 if(mysqli_insert_id($conn)) {
-    $_SESSION['msg'] = "<strong> Usuário cadastrado com sucesso </strong> ";
+    $_SESSION['msg'] = "<small> Usuário cadastrado com sucesso </small> ";
     header("location: index.php");
 }else {
     header("location: index.php");

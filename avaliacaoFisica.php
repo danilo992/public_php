@@ -9,12 +9,15 @@
 </head>
 <body>
     <header>
-    <a href="index.php" target="_banck"> 
-          <figure><img src="img/home.png"></figure>
-        </a>
+   
         <h2>Avaliação Física</h2>
+        <a href="index.php" target="_banck"> 
+          <img src="img/home.png">
+        </a>
     </header>
-
+    <br>
+    <br>
+    <br>
     <section>
         <p>
             Através da análise da composição corporal utilizando as medidas corporais, 

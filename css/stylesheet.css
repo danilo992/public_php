@@ -15,6 +15,7 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
+    
 }
 
 header h2 {
@@ -25,6 +26,19 @@ header h2 {
     font-weight: 900;
     font-size: 50px;
     color: rgb(44, 18, 59);
+}
+
+header a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header img {
+    margin-top: -30px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
 }
 
 section {
@@ -86,7 +100,7 @@ footer {
     text-align: center;
     font-size: 50px;
     color: rgb(156, 34, 160);
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 h5 {

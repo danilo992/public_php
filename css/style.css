@@ -10,6 +10,8 @@
 
 body {
     background-color: #000 !important;
+    width: 100vw;
+    height: 100vh;
 }
 /*CONTAINER HEADER*/
 .container-header {
@@ -87,7 +89,9 @@ header h1 img {
     list-style-type: none;
     text-decoration: none;
     width: 60%;   
-    margin: -60px 100px 0 0;
+   justify-content: end;
+   margin-top: -60px;
+   margin-right: 40px;
 }
 
 .container-nav li {
@@ -137,8 +141,8 @@ header h1 img {
 /*animacao slide*/
 #galeria { 
     margin: 1px auto;
-    width: 100%;
-    height: 95vh;
+    width: 100vw;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     background-color: #000;
@@ -146,6 +150,7 @@ header h1 img {
 
 #galeria img {
     width: 100vw;
+    height: 100vh;
 }
 
 .foto {
@@ -190,9 +195,14 @@ header h1 img {
 main {
     background-color: rgb(19, 18, 18);
 }
+
 strong {
     color: rgb(189, 11, 196);
     font-size: 110%;
+}
+
+small {
+    color: rgb(93, 233, 12);
 }
 
 span {
@@ -220,12 +230,14 @@ p {
 .section-plano h3 {
     color: #fdfaffe8;
     font-weight: 400;
+    font-size: 2.3vw;
 }
 
 .section-plano h2 {
     font-weight: 900;
     color: rgb(250, 131, 33);
     line-height: 2.0em;
+    font-size: 2vw;
 }
 
 .section-plano {
@@ -294,21 +306,21 @@ p {
 
 
 /*section gympass*/
-.container-section-4 {
+.section-gympass {
     background-color: #070607;
     text-align: center;
     height: 37vh;
     width: 99.5%;
 }
 
-.container-section-4 p {
+.section-gympass p {
     color: hsl(120, 75%, 48%);
     text-transform: uppercase;
     font-size: 15px;
     margin-top: 15px;
 }
 
-.container-section-4 h3 {
+.section-gympass h3 {
     color: hsl(0, 83%, 60%);
     font-weight: 900;
     text-transform: uppercase;
@@ -316,7 +328,7 @@ p {
     padding: 19px;
 }
 
-.container-section-4 strong {
+.section-gympass strong {
     color: hsl(0, 83%, 60%);
 }
 /*fim secion*/
@@ -474,7 +486,7 @@ input {
 footer {
     display: flex !important;
     background-color: #000;
-    height: 70vh;
+    
     width: 99.9%;
     padding-top: 50px;
     border-top: 1px solid rgba(209, 191, 191, 0.171);
@@ -490,24 +502,21 @@ footer img {
     border: 1px solid rgb(226, 222, 222);
 }
 
-aside {
-    width: 10vw;
-}
-
 .aside-whats {
-    width: 50%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .aside-whats a {
     display: flex;
-    justify-content: center;
     color: rgb(189, 11, 196);
     text-decoration: none;
 }
 
 .aside-whats a:hover {
     display: flex;
-    justify-content: center;
     color: #0ec518ad;
     text-decoration: none;
 }
@@ -516,24 +525,13 @@ aside {
     border-radius: 10px;
 }
 
-/*pagseguro*/
-.pagseguro aside {
-    margin-left: -6.5vw;
-    width: 30vw;
-}
-.pagseguro img {
-    width: 300px;
-    height: 100px;
-    background-color: #000;
-    border: none;  
-}
 /*redes-sociais*/
 .list-redes-social img {
     border-radius: 10px;
 }
 
 .list-redes-social a figure {
-    margin: 0 0 40px 0;
+    margin: 0 0 40px 10px;
 }
 
 .list-redes-social a:hover {
@@ -553,23 +551,22 @@ aside {
     margin-left: -10px;
 }
 
+.endereco img {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
 .img-cartoes img{
     width: 20vw;
     height: 10vh;
 }
 
-.img-cartoes strong {
-    font-size: 10px;
-} 
 
-.autor {
-    font-size: 7.7px;
-    padding: 0 20px 20px 20px;
-}
 
 /*fim-footer*/
 /*---- @media screen --------------------------*/
-@media screen and (min-width: 320px) and (max-width:640px){
+@media screen and (min-width: 280px) and (max-width:640px){
     body {
         margin: 0;
         padding: 0;
@@ -627,8 +624,7 @@ aside {
         flex-direction: column;
         width: 50vw;
         height: 43vh;
-        margin-top: 0px;
-        margin-left: 160px;
+        margin-top: 0;
         z-index: 1;
     }
 
@@ -636,8 +632,8 @@ aside {
         font-size: 4.2vw;
      }
 
-    #galeria, .imagen-section img {
-        width: 100%;
+    #galeria, .imagen-section img, .imagen-section {
+        width: 100vw;
         height: 40vh;
     }
 
@@ -652,6 +648,10 @@ aside {
     }
     .section-plano h2 {
         font-size: 10px;
+    }
+
+    .section-gympass {
+        display: none;
     }
 
     .section-plano p {
@@ -685,6 +685,7 @@ aside {
         margin: 10px;
     }
 
+    /*gympass*/
     .container-plano-mlc h4 {
         font-size: 5vw;
     }
@@ -800,23 +801,13 @@ aside {
         font-size: 16px;
     }
 
-    .pagseguro {
-        display: flex;
-        flex-direction: column;
-        background-color: #000;
-        margin: 0 0 0 12px;
+    .img-cartoes img {
+        width: 150px;
     }
-   
-    .pagseguro img {
-        width: 330px;
-        height: 100px;
-        border-radius: 20px;
-    }
-    
-
 } 
+
 /*---------  media screen  -----------*/
-@media screen and (min-width: 630px) and (max-width:700px) {
+@media screen and (min-width: 541px) and (max-width:730px) {
     body {
         margin: 0;
         padding: 0;
@@ -864,7 +855,7 @@ aside {
         border: none;
         padding: 5px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-        font-size: 20px;
+        font-size: 10px;
         display: flex;
         justify-content: flex-start;
     }
@@ -902,15 +893,6 @@ aside {
 
     .section-entra-plano h2, .container-horas strong {
         font-size: 10px;
-    }
-
-    .section-entra-plano p {
-        font-size: 10px;
-        line-height: 1.5em;
-    }
-
-    .section-entra-plano {
-        height: 25vh;
     }
 
     .container-planos {
@@ -1020,7 +1002,7 @@ aside {
     }
 }
 
-@media screen and (min-width: 700px) and (max-width:800px) {
+@media screen and (min-width: 414px) and (max-width:846px) {
     #mainMenu, .fixed {
         display: none;
     }
@@ -1028,12 +1010,62 @@ aside {
     #mainMenu.toggleCls {
         display: block;
     }
-}
 
-@media screen and (min-width: 823px) and (max-width: 1368px) {
-    .hamIcon {
-        display: none;
-        
+    .section-plano {
+        width: 100vw;
+        height: 20vh;
     }
 
+    footer {
+        width: 100vw;
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 734px) and (max-width: 1112px) {
+    #mainMenu.toggleCls, .hamIcon {
+        display: block;
+        margin-right: 5%;
+    }
+
+    #mainMenu {
+        display: none;
+    }
+
+    .hamIcon h2{
+        margin-top: -50px;
+        display: flex;
+        justify-content: end;
+        color: rgb(214, 109, 11);
+    }
+
+    .container-header p{
+        font-size: 9px;
+    }
+
+    .container-nav li {
+        border: none;
+        padding: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        font-size: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .container-nav ul {
+        background-color: #000;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 0px;
+        z-index: 1;
+    }
+}
+    
+@media screen and (min-width: 1112px) and (max-width: 1412px) {
+    #mainMenu.toggleCls, .hamIcon {
+        display: none;
+        margin-right: 5%;
+    }
 }

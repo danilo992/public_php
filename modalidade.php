@@ -8,10 +8,13 @@
     <title>Modalidades</title>
 </head>
 <body>
-    <header>
+    <header> 
         <h2>
             Modalidades 
         <h2>
+        <a href="index.php" target="_banck"> 
+          <img src="img/home.png">
+        </a>
     </header>
     <section>
         <div class="center-section">
@@ -26,19 +29,19 @@
         <ul>
             <li>Escolha a modalidade que deseja realizar;</li>
             <li>Verifique o horário disponível para formar a sua turma;</li>
-            <li>A turma deve conter, no máximo, 6 alunos e minimo 3.</li>
+            <li>A turma deve conter no máximo 6 alunos e minimo 3.</li>
             <li>Efetue o pagamento da mensalidade da turma na secretaria da Fitness Point;</li>
-           <li> As duas modalidades são modalidade contratadas, 
+           <li> As duas modalidades são contratadas, 
             uma pessoa fica responsável por formar a turma e 
             recolher o valor pra paga as aulas.</li>
-            <li> Tem a escolha dos horários, para ver se tem horários disponível.</li>
-            <li>AS aulas podem ser realizadas na academia ou outro local combinado com o profissional responsável.</li>
+            <li> Tem a escolha dos horários, para ver se tem disponível.</li>
+            <li>As aulas podem ser realizadas na academia ou outro local combinado com o profissional responsável.</li>
         </ul>
         
 
     <h4>Orientações:</h4>
        <p>
-            Os (As) alunos (as) da turma precisam preencher um questionário de aptidão física antes de iniciar as atividades. 
+            Os (as) alunos da turma precisam preencher um questionário de aptidão física antes de iniciar as atividades. 
             As aulas serão montadas de acordo com os objetivos dos alunos (as) após a entrega do questionário de aptidão física.
         </p>
 

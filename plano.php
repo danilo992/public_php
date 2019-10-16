@@ -28,7 +28,7 @@
       <!--fim button-->
       <nav class="container-nav" id="mainMenu">
         <ul>
-            <li><a href="plano.php" target="_banck">Planos</a></li>
+            <li><a href="index.php" target="_banck">Home</a></li>
             <li><a href="modalidade.php" target="_banck">Modalidade</a></li> 
             <li><a href="avaliacaoFisica.php" target="_banck">Avaliação Física</a></li>
         </ul>
@@ -174,15 +174,15 @@
 
       <!--aside 2-->
       <aside class="endereco">
-        <p><strong>&#8902;</strong> Professores : Calos Vasques (Totonho)</p>
-        <p><strong>&#8902;</strong> Professores : Vinícius Fernandes (Vini)</p>
+        <p><img src="img/estrela.png"> Professores : Calos Vasques (Totonho)</p>
+        <p><img src="img/estrela.png"> Professores : Vinícius Fernandes (Vini)</p>
           <address>
            
       <p>Siga-nos nas redes sociais</p>
       <strong>Informativo</strong>
-      <p><strong>&#8902;</strong>Cadatre-se para receber novidades e promoções em seu email</p>
+      <p><img src="img/estrela.png"> Cadatre-se para receber novidades e promoções em seu email</p>
 
-      <strong>&#8902;</strong> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
+      <img src="img/estrela.png"> Endereço: Rodovia Virgílio Várzea, 1974. Barrio: Saco Grande
           </address>
     </aside>
 
@@ -193,18 +193,16 @@
             <figcaption><h5>Entre em contato via whatsapp<br> para obter mais informações.</h5></figcaption>
           </figure>
         </a>
-        <aside class="pagseguro">
-          <aside>
             <p><strong>Forma de pagamento</strong></p>
-        
             <p>
-              O nossa academia oferece diversas formas de pagamento. 
-              Escolha a melhor formar de pagamento para você!
+              Escolha a melhor formar de pagamento para você!        
             </p>
-            <figure class="img-cartoes">
-              <img src="img/cartoes.png">
-            </figure>
-        </aside>
+            <div class="img-cartoes">
+              <figure>
+                <img src="img/cartoes.png">
+              </figure>
+            </div>
+       
       </aside>
     </footer>
     <!--fim-footer-->
